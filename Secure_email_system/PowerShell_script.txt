@@ -1,0 +1,156 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210324145247
+Username: DESKTOP-MBTMEG4\nkred
+RunAs User: DESKTOP-MBTMEG4\nkred
+Configuration Name: 
+Machine: DESKTOP-MBTMEG4 (Microsoft Windows NT 10.0.18363.0)
+Host Application: PowerShell.exe -noexit -command Set-Location -literalPath 'E:\LAB2'
+Process ID: 5984
+PSVersion: 5.1.18362.1171
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1171
+BuildVersion: 10.0.18362.1171
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\nkred\OneDrive\Documents\PowerShell_transcript.DESKTOP-MBTMEG4.KO7mrJND.20210324145247.txt
+PS E:\LAB2> python main.py CreateKeys users.txt 1024
+creating RSA keys for user: 1 : alice  keylength: 1024
+creating RSA keys for user: 2 : bob  keylength: 1024
+creating RSA keys for user: 3 : nikshith  keylength: 1024
+PS E:\LAB2> python main.py CreateKeys users.txt 2048
+creating RSA keys for user: 1 : alice  keylength: 2048
+creating RSA keys for user: 2 : bob  keylength: 2048
+creating RSA keys for user: 3 : nikshith  keylength: 2048
+PS E:\LAB2> python main.py CreateMail CONF alice bob input.txt out.txt sha512 des-ede3-cbc 2048
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail CONF alice bob out.txt out1.txt sha512 des-ede3-cbc 2048
+Decrypted!
+PS E:\LAB2> python main.py CreateMail CONF alice bob input.txt out.txt sha512 des-ede3-cbc 1024
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail CONF alice bob out.txt out1.txt sha512 des-ede3-cbc 1024
+Decrypted!
+PS E:\LAB2> python main.py CreateMail CONF alice bob input.txt out.txt sha512 aes-256-cbc 2048
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail CONF alice bob out.txt out1.txt sha512 aes-256-cbc 2048
+Decrypted!
+PS E:\LAB2> python main.py CreateMail CONF alice bob input.txt out.txt sha512 aes-256-cbc 1024
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail CONF alice bob out.txt out1.txt sha512 aes-256-cbc 1024
+Decrypted!
+PS E:\LAB2> python main.py CreateMail CONF alice bob input.txt out.txt sha3-512 des-ede3-cbc 2048
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail CONF alice bob out.txt out1.txt sha3-512 des-ede3-cbc 2048
+Decrypted!
+PS E:\LAB2> python main.py CreateMail CONF alice bob input.txt out.txt sha3-512 des-ede3-cbc 1024
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail CONF alice bob out.txt out1.txt sha3-512 des-ede3-cbc 1024
+Decrypted!
+PS E:\LAB2> python main.py CreateMail CONF alice bob input.txt out.txt sha3-512 aes-256-cbc 2048
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail CONF alice bob out.txt out1.txt sha3-512 aes-256-cbc 2048
+Decrypted!
+PS E:\LAB2> python main.py CreateMail CONF alice bob input.txt out.txt sha3-512 aes-256-cbc 1024
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail CONF alice bob out.txt out1.txt sha3-512 aes-256-cbc 1024
+Decrypted!
+PS E:\LAB2> echo "All conf commands are tested correctly"
+All conf commands are tested correctly
+PS E:\LAB2> echo "Moving onto checking AUIN commands:"
+Moving onto checking AUIN commands:
+PS E:\LAB2> python main.py CreateMail AUIN alice bob input.txt out.txt sha512 des-ede3-cbc 2048
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail AUIN alice bob out.txt out1.txt sha512 des-ede3-cbc 2048
+Signature valid!
+PS E:\LAB2> python main.py CreateMail AUIN alice bob input.txt out.txt sha512 des-ede3-cbc 1024
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail AUIN alice bob out.txt out1.txt sha512 des-ede3-cbc 1024
+Signature valid!
+PS E:\LAB2> python main.py CreateMail AUIN alice bob input.txt out.txt sha512 aes-256-cbc 2048
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail AUIN alice bob out.txt out1.txt sha512 aes-256-cbc 2048
+Signature valid!
+PS E:\LAB2> python main.py CreateMail AUIN alice bob input.txt out.txt sha512 aes-256-cbc 1024
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail AUIN alice bob out.txt out1.txt sha512 aes-256-cbc 1024
+Signature valid!
+PS E:\LAB2> python main.py CreateMail AUIN alice bob input.txt out.txt sha3-512 des-ede3-cbc 2048
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail AUIN alice bob out.txt out1.txt sha3-512 des-ede3-cbc 2048
+Signature valid!
+PS E:\LAB2> python main.py CreateMail AUIN alice bob input.txt out.txt sha3-512 des-ede3-cbc 1024
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail AUIN alice bob out.txt out1.txt sha3-512 des-ede3-cbc 1024
+Signature valid!
+PS E:\LAB2> python main.py CreateMail AUIN alice bob input.txt out.txt sha3-512 aes-256-cbc 2048
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail AUIN alice bob out.txt out1.txt sha3-512 aes-256-cbc 2048
+Signature valid!
+PS E:\LAB2> python main.py CreateMail AUIN alice bob input.txt out.txt sha3-512 aes-256-cbc 1024
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail AUIN alice bob out.txt out1.txt sha3-512 aes-256-cbc 1024
+Signature valid!
+PS E:\LAB2> echo "ALL AUIN commands worked correctly and signatures are valid"
+ALL AUIN commands worked correctly and signatures are valid
+PS E:\LAB2> echo "Now moving onto checking COAI:"
+Now moving onto checking COAI:
+PS E:\LAB2> python main.py CreateMail COAI alice bob input.txt out.txt sha512 des-ede3-cbc 2048
+Successful! Output file is generated.
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail COAI alice bob out.txt out1.txt sha512 des-ede3-cbc 2048
+Decrypted!
+Signature valid!
+PS E:\LAB2> python main.py CreateMail COAI alice bob input.txt out.txt sha512 des-ede3-cbc 1024
+Successful! Output file is generated.
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail COAI alice bob out.txt out1.txt sha512 des-ede3-cbc 1024
+Decrypted!
+Signature valid!
+PS E:\LAB2> python main.py CreateMail COAI alice bob input.txt out.txt sha512 aes-256-cbc 2048
+Successful! Output file is generated.
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail COAI alice bob out.txt out1.txt sha512 aes-256-cbc 2048
+Decrypted!
+Signature valid!
+PS E:\LAB2> python main.py CreateMail COAI alice bob input.txt out.txt sha512 aes-256-cbc 1024
+Successful! Output file is generated.
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail COAI alice bob out.txt out1.txt sha512 aes-256-cbc 1024
+Decrypted!
+Signature valid!
+PS E:\LAB2> python main.py CreateMail COAI alice bob input.txt out.txt sha3-512 des-ede3-cbc 2048
+Successful! Output file is generated.
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail COAI alice bob out.txt out1.txt sha3-512 des-ede3-cbc 2048
+Decrypted!
+Signature valid!
+PS E:\LAB2> python main.py CreateMail COAI alice bob input.txt out.txt sha3-512 des-ede3-cbc 1024
+Successful! Output file is generated.
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail COAI alice bob out.txt out1.txt sha3-512 des-ede3-cbc 1024
+Decrypted!
+Signature valid!
+PS E:\LAB2> python main.py CreateMail COAI alice bob input.txt out.txt sha3-512 aes-256-cbc 2048
+Successful! Output file is generated.
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail COAI alice bob out.txt out1.txt sha3-512 aes-256-cbc 2048
+Decrypted!
+Signature valid!
+PS E:\LAB2> python main.py CreateMail COAI alice bob input.txt out.txt sha3-512 aes-256-cbc 1024
+Successful! Output file is generated.
+Successful! Output file is generated.
+PS E:\LAB2> python main.py ReadMail COAI alice bob out.txt out1.txt sha3-512 aes-256-cbc 1024
+Decrypted!
+Signature valid!
+PS E:\LAB2> echo "All The test cases for key length: 1024,2048, Digest: Sha512, Sha3-512, Encryption algorithms: AES-256-cbc, TripleDES are verified properly"
+All The test cases for key length: 1024,2048, Digest: Sha512, Sha3-512, Encryption algorithms: AES-256-cbc, TripleDES are verified properly
+PS E:\LAB2> echo "Message length can be of any length, Padding is also properly implemented!"
+Message length can be of any length, Padding is also properly implemented!
+PS E:\LAB2> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20210324145928
+**********************
