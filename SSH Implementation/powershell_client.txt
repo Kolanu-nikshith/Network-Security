@@ -1,0 +1,66 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210416162012
+Username: DESKTOP-MBTMEG4\nkred
+RunAs User: DESKTOP-MBTMEG4\nkred
+Configuration Name: 
+Machine: DESKTOP-MBTMEG4 (Microsoft Windows NT 10.0.19042.0)
+Host Application: PowerShell.exe -noexit -command Set-Location -literalPath 'D:\sem 2\network security\as4'
+Process ID: 16028
+PSVersion: 5.1.19041.610
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.610
+BuildVersion: 10.0.19041.610
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\nkred\OneDrive\Documents\PowerShell_transcript.DESKTOP-MBTMEG4.yj9caYQo.20210416162012.txt
+PS D:\sem 2\network security\as4> python client.py 127.0.0.1 12345 alice808 1234567890123456
+client socket created!
+Connected to server!
+Received public key of server!
+User Authentication Successful, Access Granted!
+
+
+************Available commands and their usage: ************
+
+1. `cwd`  to get the current working directory
+2. `listfiles` to get the list of files in the directory
+3. `chgdir addr` to change the working directory
+4. `cp src_addr dest_addr` , please use forward slash in the addresses
+5. `mv src_addr dest_addr` , please use forward slash in the addresses
+6. `logout` to close the connection with the server
+cmd>cwd
+D:\sem 2\network security\as4
+cmd>listfiles
+['client.py', 'clientdir', 'CsS6500_Assignment_4.pdf', 'readme and commands.txt', 'server.py', 'serverkeys', 'UserCreden
+tials', 'users.txt']
+cmd>chgdir D:/
+Path changed to  D:\
+cmd>listfiles
+['$RECYCLE.BIN', 'assignment3.pdf', 'demo5', 'demo7', 'Documents', 'Photos', 'Projects', 'rbr', 'Sem 1', 'sem 2', 'Syste
+m Volume Information']
+cmd>cp demo5 demo6
+Copied successfully!
+cmd>cp demo5 demo7
+Destination Already exist. Do you want to overwrite. Please press 'y/n' only y
+Copied successfully!
+cmd>listfiles
+['$RECYCLE.BIN', 'assignment3.pdf', 'demo5', 'demo6', 'demo7', 'Documents', 'Photos', 'Projects', 'rbr', 'Sem 1', 'sem 2
+', 'System Volume Information']
+cmd>mv demo5 demo8
+Moved successfully!
+cmd>listfiles
+['$RECYCLE.BIN', 'assignment3.pdf', 'demo6', 'demo7', 'demo8', 'Documents', 'Photos', 'Projects', 'rbr', 'Sem 1', 'sem 2
+', 'System Volume Information']
+cmd>cwd
+D:\
+cmd>logout
+closing connection with server
+PS D:\sem 2\network security\as4> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20210416162155
+**********************

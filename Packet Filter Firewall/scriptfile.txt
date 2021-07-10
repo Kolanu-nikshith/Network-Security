@@ -1,0 +1,2012 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210428162046
+Username: DESKTOP-MBTMEG4\nkred
+RunAs User: DESKTOP-MBTMEG4\nkred
+Configuration Name: 
+Machine: DESKTOP-MBTMEG4 (Microsoft Windows NT 10.0.19042.0)
+Host Application: PowerShell.exe -noexit -command Set-Location -literalPath 'D:\sem 2\network security\All Assignments\LAB5'
+Process ID: 2856
+PSVersion: 5.1.19041.906
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.906
+BuildVersion: 10.0.19041.906
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\nkred\OneDrive\Documents\PowerShell_transcript.DESKTOP-MBTMEG4.8Ubz7kZs.20210428162046.txt
+PS D:\sem 2\network security\All Assignments\LAB5> python main.py rulefile.txt pktfile.txt
+Read 500  rules.  500  valid rules stored.
+Packet   1  : Found matches =   1  rules: 1
+Packet:  2  is invalid.
+Packet   3  : Found matches =   1  rules: 1
+Packet   4  : Found matches =   1  rules: 2
+Packet   5  : Found matches =   1  rules: 2
+Packet   6  : Found matches =   1  rules: 45
+Packet   7  : Found matches =   1  rules: 3
+Packet   8  : Found matches =   2  rules: 3,45
+Packet   9  : Found matches =   1  rules: 3
+Packet   10  : Found matches =   0  rules:
+Packet:  11  is invalid.
+Packet   12  : Found matches =   1  rules: 4
+Packet   13  : Found matches =   1  rules: 4
+Packet:  14  is invalid.
+Packet   15  : Found matches =   0  rules:
+Packet   16  : Found matches =   1  rules: 5
+Packet   17  : Found matches =   1  rules: 5
+Packet   18  : Found matches =   0  rules:
+Packet:  19  is invalid.
+Packet   20  : Found matches =   1  rules: 5
+Packet   21  : Found matches =   0  rules:
+Packet:  22  is invalid.
+Packet   23  : Found matches =   2  rules: 6,255
+Packet:  24  is invalid.
+Packet   25  : Found matches =   0  rules:
+Packet   26  : Found matches =   1  rules: 7
+Packet:  27  is invalid.
+Packet:  28  is invalid.
+Packet   29  : Found matches =   2  rules: 8,45
+Packet   30  : Found matches =   0  rules:
+Packet   31  : Found matches =   1  rules: 8
+Packet:  32  is invalid.
+Packet:  33  is invalid.
+Packet   34  : Found matches =   1  rules: 10
+Packet:  35  is invalid.
+Packet:  36  is invalid.
+Packet:  37  is invalid.
+Packet   38  : Found matches =   0  rules:
+Packet:  39  is invalid.
+Packet   40  : Found matches =   1  rules: 11
+Packet   41  : Found matches =   1  rules: 11
+Packet   42  : Found matches =   1  rules: 11
+Packet:  43  is invalid.
+Packet:  44  is invalid.
+Packet   45  : Found matches =   0  rules:
+Packet   46  : Found matches =   0  rules:
+Packet   47  : Found matches =   1  rules: 12
+Packet   48  : Found matches =   1  rules: 13
+Packet   49  : Found matches =   1  rules: 13
+Packet   50  : Found matches =   0  rules:
+Packet   51  : Found matches =   1  rules: 13
+Packet   52  : Found matches =   1  rules: 13
+Packet   53  : Found matches =   1  rules: 13
+Packet:  54  is invalid.
+Packet:  55  is invalid.
+Packet   56  : Found matches =   0  rules:
+Packet   57  : Found matches =   2  rules: 15,255
+Packet   58  : Found matches =   0  rules:
+Packet   59  : Found matches =   1  rules: 15
+Packet:  60  is invalid.
+Packet:  61  is invalid.
+Packet   62  : Found matches =   2  rules: 16,45
+Packet   63  : Found matches =   1  rules: 16
+Packet:  64  is invalid.
+Packet   65  : Found matches =   1  rules: 16
+Packet   66  : Found matches =   1  rules: 17
+Packet   67  : Found matches =   1  rules: 17
+Packet   68  : Found matches =   1  rules: 17
+Packet   69  : Found matches =   0  rules:
+Packet   70  : Found matches =   1  rules: 18
+Packet   71  : Found matches =   1  rules: 18
+Packet   72  : Found matches =   0  rules:
+Packet   73  : Found matches =   1  rules: 19
+Packet   74  : Found matches =   0  rules:
+Packet   75  : Found matches =   0  rules:
+Packet   76  : Found matches =   1  rules: 19
+Packet:  77  is invalid.
+Packet   78  : Found matches =   1  rules: 20
+Packet   79  : Found matches =   1  rules: 20
+Packet   80  : Found matches =   0  rules:
+Packet   81  : Found matches =   1  rules: 20
+Packet   82  : Found matches =   0  rules:
+Packet   83  : Found matches =   0  rules:
+Packet   84  : Found matches =   0  rules:
+Packet   85  : Found matches =   1  rules: 296
+Packet   86  : Found matches =   1  rules: 21
+Packet   87  : Found matches =   1  rules: 21
+Packet   88  : Found matches =   1  rules: 22
+Packet   89  : Found matches =   1  rules: 22
+Packet   90  : Found matches =   1  rules: 22
+Packet   91  : Found matches =   1  rules: 22
+Packet   92  : Found matches =   0  rules:
+Packet   93  : Found matches =   1  rules: 22
+Packet   94  : Found matches =   1  rules: 23
+Packet:  95  is invalid.
+Packet   96  : Found matches =   1  rules: 23
+Packet   97  : Found matches =   1  rules: 24
+Packet   98  : Found matches =   1  rules: 24
+Packet   99  : Found matches =   1  rules: 24
+Packet   100  : Found matches =   1  rules: 24
+Packet   101  : Found matches =   1  rules: 255
+Packet   102  : Found matches =   0  rules:
+Packet   103  : Found matches =   0  rules:
+Packet   104  : Found matches =   1  rules: 26
+Packet   105  : Found matches =   1  rules: 26
+Packet   106  : Found matches =   1  rules: 26
+Packet   107  : Found matches =   1  rules: 26
+Packet   108  : Found matches =   0  rules:
+Packet   109  : Found matches =   1  rules: 27
+Packet   110  : Found matches =   0  rules:
+Packet:  111  is invalid.
+Packet:  112  is invalid.
+Packet   113  : Found matches =   0  rules:
+Packet   114  : Found matches =   1  rules: 27
+Packet   115  : Found matches =   0  rules:
+Packet   116  : Found matches =   1  rules: 28
+Packet   117  : Found matches =   1  rules: 28
+Packet   118  : Found matches =   0  rules:
+Packet   119  : Found matches =   0  rules:
+Packet   120  : Found matches =   1  rules: 45
+Packet   121  : Found matches =   1  rules: 29
+Packet   122  : Found matches =   1  rules: 29
+Packet   123  : Found matches =   0  rules:
+Packet   124  : Found matches =   0  rules:
+Packet   125  : Found matches =   1  rules: 30
+Packet   126  : Found matches =   1  rules: 31
+Packet   127  : Found matches =   1  rules: 31
+Packet   128  : Found matches =   0  rules:
+Packet:  129  is invalid.
+Packet   130  : Found matches =   0  rules:
+Packet   131  : Found matches =   1  rules: 32
+Packet   132  : Found matches =   0  rules:
+Packet   133  : Found matches =   0  rules:
+Packet   134  : Found matches =   0  rules:
+Packet   135  : Found matches =   0  rules:
+Packet   136  : Found matches =   1  rules: 34
+Packet   137  : Found matches =   1  rules: 45
+Packet   138  : Found matches =   1  rules: 34
+Packet   139  : Found matches =   2  rules: 34,45
+Packet   140  : Found matches =   1  rules: 34
+Packet   141  : Found matches =   1  rules: 35
+Packet   142  : Found matches =   1  rules: 35
+Packet   143  : Found matches =   1  rules: 35
+Packet   144  : Found matches =   0  rules:
+Packet   145  : Found matches =   1  rules: 35
+Packet   146  : Found matches =   0  rules:
+Packet   147  : Found matches =   1  rules: 36
+Packet   148  : Found matches =   1  rules: 36
+Packet   149  : Found matches =   0  rules:
+Packet   150  : Found matches =   1  rules: 37
+Packet   151  : Found matches =   1  rules: 37
+Packet   152  : Found matches =   2  rules: 37,255
+Packet   153  : Found matches =   0  rules:
+Packet   154  : Found matches =   1  rules: 38
+Packet   155  : Found matches =   0  rules:
+Packet   156  : Found matches =   1  rules: 38
+Packet   157  : Found matches =   1  rules: 38
+Packet   158  : Found matches =   2  rules: 39,255
+Packet   159  : Found matches =   0  rules:
+Packet   160  : Found matches =   0  rules:
+Packet   161  : Found matches =   2  rules: 39,255
+Packet   162  : Found matches =   0  rules:
+Packet   163  : Found matches =   2  rules: 40,45
+Packet   164  : Found matches =   1  rules: 45
+Packet   165  : Found matches =   1  rules: 40
+Packet   166  : Found matches =   2  rules: 40,45
+Packet   167  : Found matches =   2  rules: 40,45
+Packet   168  : Found matches =   2  rules: 40,45
+Packet   169  : Found matches =   1  rules: 41
+Packet   170  : Found matches =   1  rules: 41
+Packet   171  : Found matches =   2  rules: 41,45
+Packet   172  : Found matches =   1  rules: 41
+Packet   173  : Found matches =   1  rules: 42
+Packet   174  : Found matches =   0  rules:
+Packet   175  : Found matches =   1  rules: 42
+Packet   176  : Found matches =   0  rules:
+Packet   177  : Found matches =   1  rules: 43
+Packet   178  : Found matches =   2  rules: 43,45
+Packet   179  : Found matches =   1  rules: 44
+Packet   180  : Found matches =   1  rules: 44
+Packet   181  : Found matches =   0  rules:
+Packet   182  : Found matches =   1  rules: 45
+Packet   183  : Found matches =   1  rules: 45
+Packet   184  : Found matches =   1  rules: 46
+Packet   185  : Found matches =   0  rules:
+Packet:  186  is invalid.
+Packet:  187  is invalid.
+Packet   188  : Found matches =   1  rules: 47
+Packet   189  : Found matches =   1  rules: 47
+Packet   190  : Found matches =   1  rules: 47
+Packet   191  : Found matches =   1  rules: 47
+Packet   192  : Found matches =   3  rules: 45,48,296
+Packet   193  : Found matches =   2  rules: 45,48
+Packet   194  : Found matches =   2  rules: 45,49
+Packet:  195  is invalid.
+Packet   196  : Found matches =   2  rules: 45,49
+Packet   197  : Found matches =   2  rules: 45,49
+Packet   198  : Found matches =   2  rules: 45,49
+Packet   199  : Found matches =   1  rules: 50
+Packet   200  : Found matches =   0  rules:
+Packet   201  : Found matches =   1  rules: 50
+Packet   202  : Found matches =   2  rules: 51,255
+Packet   203  : Found matches =   1  rules: 255
+Packet   204  : Found matches =   1  rules: 51
+Packet   205  : Found matches =   0  rules:
+Packet   206  : Found matches =   0  rules:
+Packet   207  : Found matches =   0  rules:
+Packet   208  : Found matches =   1  rules: 52
+Packet   209  : Found matches =   1  rules: 52
+Packet   210  : Found matches =   1  rules: 53
+Packet   211  : Found matches =   1  rules: 53
+Packet   212  : Found matches =   0  rules:
+Packet   213  : Found matches =   1  rules: 54
+Packet   214  : Found matches =   1  rules: 54
+Packet   215  : Found matches =   1  rules: 45
+Packet:  216  is invalid.
+Packet   217  : Found matches =   0  rules:
+Packet   218  : Found matches =   1  rules: 45
+Packet   219  : Found matches =   1  rules: 55
+Packet   220  : Found matches =   2  rules: 45,55
+Packet:  221  is invalid.
+Packet   222  : Found matches =   1  rules: 56
+Packet   223  : Found matches =   1  rules: 56
+Packet   224  : Found matches =   2  rules: 45,57
+Packet   225  : Found matches =   2  rules: 45,57
+Packet   226  : Found matches =   0  rules:
+Packet   227  : Found matches =   2  rules: 45,57
+Packet   228  : Found matches =   2  rules: 45,57
+Packet   229  : Found matches =   1  rules: 58
+Packet   230  : Found matches =   1  rules: 58
+Packet   231  : Found matches =   1  rules: 58
+Packet   232  : Found matches =   1  rules: 58
+Packet   233  : Found matches =   1  rules: 59
+Packet   234  : Found matches =   1  rules: 59
+Packet   235  : Found matches =   0  rules:
+Packet   236  : Found matches =   0  rules:
+Packet   237  : Found matches =   1  rules: 60
+Packet   238  : Found matches =   1  rules: 61
+Packet   239  : Found matches =   0  rules:
+Packet   240  : Found matches =   1  rules: 61
+Packet   241  : Found matches =   1  rules: 62
+Packet   242  : Found matches =   1  rules: 62
+Packet   243  : Found matches =   1  rules: 63
+Packet:  244  is invalid.
+Packet   245  : Found matches =   1  rules: 63
+Packet   246  : Found matches =   0  rules:
+Packet   247  : Found matches =   0  rules:
+Packet   248  : Found matches =   1  rules: 64
+Packet   249  : Found matches =   0  rules:
+Packet:  250  is invalid.
+Packet   251  : Found matches =   1  rules: 64
+Packet   252  : Found matches =   0  rules:
+Packet   253  : Found matches =   0  rules:
+Packet   254  : Found matches =   1  rules: 65
+Packet   255  : Found matches =   0  rules:
+Packet   256  : Found matches =   0  rules:
+Packet   257  : Found matches =   0  rules:
+Packet:  258  is invalid.
+Packet   259  : Found matches =   1  rules: 66
+Packet:  260  is invalid.
+Packet   261  : Found matches =   2  rules: 45,66
+Packet:  262  is invalid.
+Packet   263  : Found matches =   1  rules: 67
+Packet   264  : Found matches =   2  rules: 45,67
+Packet   265  : Found matches =   2  rules: 45,67
+Packet:  266  is invalid.
+Packet   267  : Found matches =   1  rules: 67
+Packet   268  : Found matches =   1  rules: 68
+Packet   269  : Found matches =   1  rules: 68
+Packet   270  : Found matches =   1  rules: 68
+Packet   271  : Found matches =   1  rules: 68
+Packet   272  : Found matches =   1  rules: 68
+Packet   273  : Found matches =   1  rules: 69
+Packet   274  : Found matches =   1  rules: 69
+Packet   275  : Found matches =   1  rules: 69
+Packet   276  : Found matches =   1  rules: 69
+Packet   277  : Found matches =   1  rules: 69
+Packet   278  : Found matches =   1  rules: 70
+Packet   279  : Found matches =   1  rules: 70
+Packet:  280  is invalid.
+Packet   281  : Found matches =   1  rules: 71
+Packet   282  : Found matches =   0  rules:
+Packet   283  : Found matches =   1  rules: 72
+Packet   284  : Found matches =   1  rules: 72
+Packet   285  : Found matches =   1  rules: 72
+Packet   286  : Found matches =   1  rules: 72
+Packet   287  : Found matches =   1  rules: 73
+Packet   288  : Found matches =   1  rules: 73
+Packet   289  : Found matches =   1  rules: 74
+Packet   290  : Found matches =   1  rules: 74
+Packet   291  : Found matches =   1  rules: 74
+Packet   292  : Found matches =   1  rules: 75
+Packet   293  : Found matches =   1  rules: 75
+Packet   294  : Found matches =   0  rules:
+Packet   295  : Found matches =   1  rules: 76
+Packet   296  : Found matches =   1  rules: 45
+Packet   297  : Found matches =   0  rules:
+Packet   298  : Found matches =   1  rules: 77
+Packet:  299  is invalid.
+Packet:  300  is invalid.
+Packet   301  : Found matches =   1  rules: 77
+Packet   302  : Found matches =   1  rules: 77
+Packet   303  : Found matches =   1  rules: 78
+Packet   304  : Found matches =   0  rules:
+Packet   305  : Found matches =   1  rules: 79
+Packet   306  : Found matches =   1  rules: 79
+Packet   307  : Found matches =   0  rules:
+Packet   308  : Found matches =   1  rules: 80
+Packet   309  : Found matches =   0  rules:
+Packet   310  : Found matches =   1  rules: 80
+Packet   311  : Found matches =   1  rules: 80
+Packet   312  : Found matches =   1  rules: 80
+Packet   313  : Found matches =   1  rules: 80
+Packet   314  : Found matches =   1  rules: 81
+Packet:  315  is invalid.
+Packet:  316  is invalid.
+Packet   317  : Found matches =   1  rules: 82
+Packet   318  : Found matches =   1  rules: 82
+Packet   319  : Found matches =   1  rules: 83
+Packet   320  : Found matches =   0  rules:
+Packet   321  : Found matches =   1  rules: 84
+Packet   322  : Found matches =   1  rules: 84
+Packet   323  : Found matches =   0  rules:
+Packet   324  : Found matches =   1  rules: 85
+Packet   325  : Found matches =   0  rules:
+Packet   326  : Found matches =   0  rules:
+Packet   327  : Found matches =   1  rules: 86
+Packet   328  : Found matches =   1  rules: 86
+Packet   329  : Found matches =   1  rules: 86
+Packet   330  : Found matches =   1  rules: 86
+Packet   331  : Found matches =   1  rules: 86
+Packet   332  : Found matches =   1  rules: 86
+Packet   333  : Found matches =   1  rules: 87
+Packet   334  : Found matches =   1  rules: 87
+Packet   335  : Found matches =   1  rules: 87
+Packet   336  : Found matches =   0  rules:
+Packet   337  : Found matches =   0  rules:
+Packet   338  : Found matches =   2  rules: 45,89
+Packet   339  : Found matches =   2  rules: 45,89
+Packet   340  : Found matches =   2  rules: 45,89
+Packet   341  : Found matches =   1  rules: 90
+Packet:  342  is invalid.
+Packet   343  : Found matches =   1  rules: 90
+Packet:  344  is invalid.
+Packet   345  : Found matches =   1  rules: 90
+Packet:  346  is invalid.
+Packet   347  : Found matches =   1  rules: 91
+Packet   348  : Found matches =   1  rules: 91
+Packet   349  : Found matches =   0  rules:
+Packet   350  : Found matches =   0  rules:
+Packet   351  : Found matches =   2  rules: 45,92
+Packet   352  : Found matches =   1  rules: 92
+Packet   353  : Found matches =   1  rules: 92
+Packet   354  : Found matches =   1  rules: 92
+Packet   355  : Found matches =   0  rules:
+Packet   356  : Found matches =   2  rules: 92,296
+Packet   357  : Found matches =   1  rules: 93
+Packet   358  : Found matches =   1  rules: 93
+Packet   359  : Found matches =   0  rules:
+Packet   360  : Found matches =   0  rules:
+Packet   361  : Found matches =   2  rules: 45,94
+Packet   362  : Found matches =   2  rules: 45,94
+Packet   363  : Found matches =   2  rules: 45,94
+Packet   364  : Found matches =   1  rules: 94
+Packet   365  : Found matches =   1  rules: 45
+Packet   366  : Found matches =   0  rules:
+Packet   367  : Found matches =   1  rules: 95
+Packet   368  : Found matches =   1  rules: 95
+Packet   369  : Found matches =   1  rules: 95
+Packet   370  : Found matches =   1  rules: 95
+Packet:  371  is invalid.
+Packet   372  : Found matches =   1  rules: 96
+Packet   373  : Found matches =   0  rules:
+Packet   374  : Found matches =   1  rules: 96
+Packet   375  : Found matches =   1  rules: 96
+Packet   376  : Found matches =   1  rules: 97
+Packet   377  : Found matches =   0  rules:
+Packet   378  : Found matches =   1  rules: 97
+Packet   379  : Found matches =   0  rules:
+Packet   380  : Found matches =   1  rules: 97
+Packet   381  : Found matches =   0  rules:
+Packet   382  : Found matches =   0  rules:
+Packet   383  : Found matches =   1  rules: 98
+Packet   384  : Found matches =   1  rules: 98
+Packet   385  : Found matches =   2  rules: 45,98
+Packet   386  : Found matches =   1  rules: 98
+Packet   387  : Found matches =   1  rules: 98
+Packet   388  : Found matches =   0  rules:
+Packet   389  : Found matches =   1  rules: 99
+Packet   390  : Found matches =   1  rules: 99
+Packet   391  : Found matches =   1  rules: 99
+Packet   392  : Found matches =   1  rules: 99
+Packet   393  : Found matches =   1  rules: 99
+Packet   394  : Found matches =   1  rules: 100
+Packet   395  : Found matches =   0  rules:
+Packet   396  : Found matches =   1  rules: 100
+Packet   397  : Found matches =   1  rules: 100
+Packet   398  : Found matches =   0  rules:
+Packet   399  : Found matches =   0  rules:
+Packet   400  : Found matches =   0  rules:
+Packet   401  : Found matches =   0  rules:
+Packet   402  : Found matches =   1  rules: 101
+Packet   403  : Found matches =   1  rules: 101
+Packet   404  : Found matches =   1  rules: 101
+Packet   405  : Found matches =   1  rules: 102
+Packet:  406  is invalid.
+Packet   407  : Found matches =   0  rules:
+Packet:  408  is invalid.
+Packet   409  : Found matches =   1  rules: 102
+Packet:  410  is invalid.
+Packet:  411  is invalid.
+Packet   412  : Found matches =   1  rules: 104
+Packet   413  : Found matches =   0  rules:
+Packet   414  : Found matches =   2  rules: 45,105
+Packet   415  : Found matches =   1  rules: 45
+Packet   416  : Found matches =   2  rules: 45,105
+Packet   417  : Found matches =   1  rules: 45
+Packet   418  : Found matches =   0  rules:
+Packet   419  : Found matches =   2  rules: 45,105
+Packet   420  : Found matches =   1  rules: 106
+Packet   421  : Found matches =   1  rules: 296
+Packet:  422  is invalid.
+Packet   423  : Found matches =   1  rules: 107
+Packet   424  : Found matches =   0  rules:
+Packet   425  : Found matches =   1  rules: 108
+Packet   426  : Found matches =   1  rules: 108
+Packet   427  : Found matches =   1  rules: 108
+Packet   428  : Found matches =   1  rules: 108
+Packet   429  : Found matches =   1  rules: 109
+Packet   430  : Found matches =   1  rules: 109
+Packet   431  : Found matches =   1  rules: 109
+Packet   432  : Found matches =   1  rules: 109
+Packet:  433  is invalid.
+Packet   434  : Found matches =   1  rules: 110
+Packet   435  : Found matches =   1  rules: 110
+Packet   436  : Found matches =   0  rules:
+Packet   437  : Found matches =   1  rules: 111
+Packet   438  : Found matches =   1  rules: 111
+Packet:  439  is invalid.
+Packet   440  : Found matches =   1  rules: 112
+Packet   441  : Found matches =   1  rules: 112
+Packet   442  : Found matches =   1  rules: 112
+Packet   443  : Found matches =   1  rules: 112
+Packet   444  : Found matches =   1  rules: 112
+Packet   445  : Found matches =   0  rules:
+Packet   446  : Found matches =   1  rules: 113
+Packet   447  : Found matches =   0  rules:
+Packet   448  : Found matches =   1  rules: 113
+Packet:  449  is invalid.
+Packet   450  : Found matches =   1  rules: 113
+Packet   451  : Found matches =   0  rules:
+Packet   452  : Found matches =   2  rules: 45,114
+Packet   453  : Found matches =   1  rules: 114
+Packet   454  : Found matches =   1  rules: 114
+Packet   455  : Found matches =   1  rules: 114
+Packet   456  : Found matches =   1  rules: 45
+Packet   457  : Found matches =   1  rules: 115
+Packet   458  : Found matches =   1  rules: 115
+Packet   459  : Found matches =   0  rules:
+Packet   460  : Found matches =   1  rules: 115
+Packet   461  : Found matches =   0  rules:
+Packet   462  : Found matches =   0  rules:
+Packet   463  : Found matches =   1  rules: 117
+Packet   464  : Found matches =   1  rules: 117
+Packet   465  : Found matches =   0  rules:
+Packet   466  : Found matches =   1  rules: 117
+Packet   467  : Found matches =   1  rules: 117
+Packet   468  : Found matches =   1  rules: 118
+Packet   469  : Found matches =   1  rules: 45
+Packet   470  : Found matches =   0  rules:
+Packet   471  : Found matches =   1  rules: 119
+Packet:  472  is invalid.
+Packet   473  : Found matches =   1  rules: 120
+Packet   474  : Found matches =   1  rules: 121
+Packet   475  : Found matches =   1  rules: 121
+Packet   476  : Found matches =   0  rules:
+Packet   477  : Found matches =   1  rules: 121
+Packet   478  : Found matches =   1  rules: 121
+Packet   479  : Found matches =   1  rules: 122
+Packet   480  : Found matches =   0  rules:
+Packet   481  : Found matches =   1  rules: 122
+Packet   482  : Found matches =   1  rules: 122
+Packet   483  : Found matches =   1  rules: 123
+Packet   484  : Found matches =   2  rules: 45,123
+Packet   485  : Found matches =   1  rules: 123
+Packet   486  : Found matches =   1  rules: 123
+Packet   487  : Found matches =   2  rules: 45,124
+Packet   488  : Found matches =   2  rules: 45,124
+Packet   489  : Found matches =   1  rules: 125
+Packet   490  : Found matches =   1  rules: 45
+Packet   491  : Found matches =   1  rules: 125
+Packet   492  : Found matches =   0  rules:
+Packet   493  : Found matches =   3  rules: 45,126,296
+Packet   494  : Found matches =   0  rules:
+Packet   495  : Found matches =   2  rules: 45,126
+Packet   496  : Found matches =   1  rules: 126
+Packet   497  : Found matches =   1  rules: 126
+Packet   498  : Found matches =   1  rules: 127
+Packet:  499  is invalid.
+Packet   500  : Found matches =   1  rules: 127
+Packet   501  : Found matches =   1  rules: 128
+Packet   502  : Found matches =   1  rules: 128
+Packet   503  : Found matches =   1  rules: 128
+Packet   504  : Found matches =   1  rules: 128
+Packet   505  : Found matches =   1  rules: 128
+Packet   506  : Found matches =   0  rules:
+Packet   507  : Found matches =   1  rules: 129
+Packet   508  : Found matches =   0  rules:
+Packet   509  : Found matches =   0  rules:
+Packet   510  : Found matches =   1  rules: 130
+Packet:  511  is invalid.
+Packet   512  : Found matches =   0  rules:
+Packet   513  : Found matches =   1  rules: 131
+Packet   514  : Found matches =   0  rules:
+Packet   515  : Found matches =   1  rules: 131
+Packet   516  : Found matches =   1  rules: 131
+Packet   517  : Found matches =   0  rules:
+Packet   518  : Found matches =   2  rules: 45,132
+Packet   519  : Found matches =   2  rules: 45,132
+Packet   520  : Found matches =   1  rules: 132
+Packet   521  : Found matches =   1  rules: 132
+Packet   522  : Found matches =   1  rules: 133
+Packet   523  : Found matches =   0  rules:
+Packet   524  : Found matches =   0  rules:
+Packet:  525  is invalid.
+Packet   526  : Found matches =   1  rules: 134
+Packet   527  : Found matches =   1  rules: 135
+Packet   528  : Found matches =   1  rules: 135
+Packet   529  : Found matches =   1  rules: 136
+Packet   530  : Found matches =   1  rules: 45
+Packet   531  : Found matches =   1  rules: 136
+Packet   532  : Found matches =   0  rules:
+Packet   533  : Found matches =   1  rules: 137
+Packet   534  : Found matches =   1  rules: 138
+Packet   535  : Found matches =   1  rules: 138
+Packet   536  : Found matches =   1  rules: 138
+Packet:  537  is invalid.
+Packet   538  : Found matches =   0  rules:
+Packet   539  : Found matches =   0  rules:
+Packet   540  : Found matches =   0  rules:
+Packet   541  : Found matches =   1  rules: 139
+Packet   542  : Found matches =   1  rules: 139
+Packet   543  : Found matches =   0  rules:
+Packet   544  : Found matches =   0  rules:
+Packet   545  : Found matches =   1  rules: 140
+Packet   546  : Found matches =   1  rules: 140
+Packet   547  : Found matches =   1  rules: 140
+Packet:  548  is invalid.
+Packet   549  : Found matches =   1  rules: 140
+Packet   550  : Found matches =   1  rules: 141
+Packet   551  : Found matches =   0  rules:
+Packet   552  : Found matches =   0  rules:
+Packet   553  : Found matches =   0  rules:
+Packet   554  : Found matches =   1  rules: 143
+Packet   555  : Found matches =   1  rules: 143
+Packet   556  : Found matches =   1  rules: 143
+Packet   557  : Found matches =   1  rules: 143
+Packet   558  : Found matches =   3  rules: 45,144,296
+Packet:  559  is invalid.
+Packet   560  : Found matches =   0  rules:
+Packet   561  : Found matches =   1  rules: 144
+Packet:  562  is invalid.
+Packet:  563  is invalid.
+Packet:  564  is invalid.
+Packet   565  : Found matches =   1  rules: 145
+Packet   566  : Found matches =   1  rules: 145
+Packet   567  : Found matches =   2  rules: 45,146
+Packet:  568  is invalid.
+Packet   569  : Found matches =   1  rules: 146
+Packet   570  : Found matches =   0  rules:
+Packet   571  : Found matches =   0  rules:
+Packet   572  : Found matches =   1  rules: 146
+Packet   573  : Found matches =   0  rules:
+Packet   574  : Found matches =   0  rules:
+Packet   575  : Found matches =   0  rules:
+Packet   576  : Found matches =   1  rules: 148
+Packet   577  : Found matches =   1  rules: 148
+Packet   578  : Found matches =   1  rules: 149
+Packet   579  : Found matches =   1  rules: 149
+Packet   580  : Found matches =   1  rules: 149
+Packet   581  : Found matches =   0  rules:
+Packet   582  : Found matches =   1  rules: 149
+Packet   583  : Found matches =   0  rules:
+Packet   584  : Found matches =   1  rules: 150
+Packet   585  : Found matches =   1  rules: 150
+Packet   586  : Found matches =   1  rules: 150
+Packet   587  : Found matches =   0  rules:
+Packet   588  : Found matches =   1  rules: 150
+Packet   589  : Found matches =   1  rules: 151
+Packet   590  : Found matches =   0  rules:
+Packet   591  : Found matches =   1  rules: 151
+Packet   592  : Found matches =   1  rules: 151
+Packet   593  : Found matches =   1  rules: 152
+Packet   594  : Found matches =   1  rules: 152
+Packet   595  : Found matches =   0  rules:
+Packet:  596  is invalid.
+Packet   597  : Found matches =   0  rules:
+Packet:  598  is invalid.
+Packet   599  : Found matches =   0  rules:
+Packet   600  : Found matches =   0  rules:
+Packet   601  : Found matches =   1  rules: 154
+Packet   602  : Found matches =   1  rules: 154
+Packet   603  : Found matches =   0  rules:
+Packet   604  : Found matches =   2  rules: 45,155
+Packet   605  : Found matches =   1  rules: 45
+Packet   606  : Found matches =   2  rules: 45,155
+Packet:  607  is invalid.
+Packet   608  : Found matches =   1  rules: 155
+Packet   609  : Found matches =   2  rules: 45,155
+Packet:  610  is invalid.
+Packet   611  : Found matches =   0  rules:
+Packet   612  : Found matches =   0  rules:
+Packet   613  : Found matches =   1  rules: 45
+Packet   614  : Found matches =   2  rules: 45,157
+Packet   615  : Found matches =   0  rules:
+Packet   616  : Found matches =   2  rules: 45,157
+Packet   617  : Found matches =   2  rules: 45,157
+Packet   618  : Found matches =   1  rules: 158
+Packet   619  : Found matches =   1  rules: 158
+Packet   620  : Found matches =   0  rules:
+Packet   621  : Found matches =   2  rules: 45,159
+Packet   622  : Found matches =   0  rules:
+Packet   623  : Found matches =   1  rules: 45
+Packet   624  : Found matches =   1  rules: 160
+Packet   625  : Found matches =   1  rules: 160
+Packet   626  : Found matches =   1  rules: 161
+Packet   627  : Found matches =   1  rules: 161
+Packet:  628  is invalid.
+Packet:  629  is invalid.
+Packet   630  : Found matches =   1  rules: 161
+Packet   631  : Found matches =   1  rules: 161
+Packet   632  : Found matches =   0  rules:
+Packet   633  : Found matches =   1  rules: 162
+Packet   634  : Found matches =   0  rules:
+Packet   635  : Found matches =   0  rules:
+Packet   636  : Found matches =   0  rules:
+Packet   637  : Found matches =   1  rules: 163
+Packet   638  : Found matches =   1  rules: 163
+Packet   639  : Found matches =   1  rules: 163
+Packet   640  : Found matches =   1  rules: 164
+Packet:  641  is invalid.
+Packet   642  : Found matches =   1  rules: 165
+Packet:  643  is invalid.
+Packet:  644  is invalid.
+Packet   645  : Found matches =   1  rules: 165
+Packet   646  : Found matches =   0  rules:
+Packet:  647  is invalid.
+Packet   648  : Found matches =   1  rules: 166
+Packet   649  : Found matches =   1  rules: 167
+Packet:  650  is invalid.
+Packet   651  : Found matches =   1  rules: 167
+Packet   652  : Found matches =   1  rules: 167
+Packet   653  : Found matches =   1  rules: 168
+Packet   654  : Found matches =   1  rules: 168
+Packet   655  : Found matches =   1  rules: 168
+Packet   656  : Found matches =   1  rules: 169
+Packet   657  : Found matches =   1  rules: 45
+Packet   658  : Found matches =   1  rules: 170
+Packet   659  : Found matches =   1  rules: 170
+Packet   660  : Found matches =   1  rules: 170
+Packet   661  : Found matches =   1  rules: 170
+Packet   662  : Found matches =   0  rules:
+Packet   663  : Found matches =   1  rules: 171
+Packet   664  : Found matches =   1  rules: 45
+Packet   665  : Found matches =   0  rules:
+Packet   666  : Found matches =   1  rules: 172
+Packet   667  : Found matches =   1  rules: 172
+Packet   668  : Found matches =   0  rules:
+Packet   669  : Found matches =   0  rules:
+Packet   670  : Found matches =   1  rules: 174
+Packet   671  : Found matches =   1  rules: 174
+Packet   672  : Found matches =   0  rules:
+Packet   673  : Found matches =   1  rules: 175
+Packet   674  : Found matches =   0  rules:
+Packet   675  : Found matches =   1  rules: 175
+Packet   676  : Found matches =   1  rules: 175
+Packet   677  : Found matches =   1  rules: 175
+Packet   678  : Found matches =   1  rules: 176
+Packet   679  : Found matches =   1  rules: 176
+Packet   680  : Found matches =   1  rules: 176
+Packet   681  : Found matches =   1  rules: 176
+Packet   682  : Found matches =   1  rules: 176
+Packet   683  : Found matches =   1  rules: 176
+Packet:  684  is invalid.
+Packet   685  : Found matches =   1  rules: 177
+Packet   686  : Found matches =   1  rules: 177
+Packet   687  : Found matches =   0  rules:
+Packet:  688  is invalid.
+Packet   689  : Found matches =   1  rules: 178
+Packet   690  : Found matches =   1  rules: 178
+Packet   691  : Found matches =   1  rules: 179
+Packet   692  : Found matches =   1  rules: 179
+Packet   693  : Found matches =   1  rules: 180
+Packet   694  : Found matches =   1  rules: 180
+Packet   695  : Found matches =   1  rules: 180
+Packet   696  : Found matches =   1  rules: 181
+Packet:  697  is invalid.
+Packet   698  : Found matches =   1  rules: 181
+Packet   699  : Found matches =   2  rules: 45,181
+Packet:  700  is invalid.
+Packet   701  : Found matches =   2  rules: 45,182
+Packet   702  : Found matches =   0  rules:
+Packet   703  : Found matches =   2  rules: 45,182
+Packet:  704  is invalid.
+Packet   705  : Found matches =   1  rules: 183
+Packet:  706  is invalid.
+Packet:  707  is invalid.
+Packet   708  : Found matches =   1  rules: 184
+Packet   709  : Found matches =   0  rules:
+Packet:  710  is invalid.
+Packet:  711  is invalid.
+Packet   712  : Found matches =   1  rules: 185
+Packet   713  : Found matches =   1  rules: 185
+Packet   714  : Found matches =   1  rules: 185
+Packet   715  : Found matches =   1  rules: 186
+Packet   716  : Found matches =   0  rules:
+Packet:  717  is invalid.
+Packet   718  : Found matches =   1  rules: 186
+Packet   719  : Found matches =   1  rules: 186
+Packet:  720  is invalid.
+Packet   721  : Found matches =   0  rules:
+Packet   722  : Found matches =   1  rules: 187
+Packet   723  : Found matches =   0  rules:
+Packet   724  : Found matches =   1  rules: 188
+Packet   725  : Found matches =   0  rules:
+Packet   726  : Found matches =   0  rules:
+Packet   727  : Found matches =   1  rules: 189
+Packet   728  : Found matches =   1  rules: 189
+Packet   729  : Found matches =   1  rules: 189
+Packet   730  : Found matches =   1  rules: 189
+Packet   731  : Found matches =   1  rules: 189
+Packet   732  : Found matches =   1  rules: 190
+Packet:  733  is invalid.
+Packet   734  : Found matches =   1  rules: 190
+Packet:  735  is invalid.
+Packet   736  : Found matches =   0  rules:
+Packet   737  : Found matches =   0  rules:
+Packet   738  : Found matches =   0  rules:
+Packet   739  : Found matches =   0  rules:
+Packet   740  : Found matches =   1  rules: 191
+Packet:  741  is invalid.
+Packet:  742  is invalid.
+Packet   743  : Found matches =   1  rules: 192
+Packet   744  : Found matches =   1  rules: 192
+Packet   745  : Found matches =   1  rules: 193
+Packet   746  : Found matches =   0  rules:
+Packet   747  : Found matches =   0  rules:
+Packet   748  : Found matches =   1  rules: 193
+Packet   749  : Found matches =   1  rules: 193
+Packet   750  : Found matches =   1  rules: 193
+Packet   751  : Found matches =   1  rules: 194
+Packet   752  : Found matches =   0  rules:
+Packet   753  : Found matches =   1  rules: 45
+Packet   754  : Found matches =   1  rules: 194
+Packet   755  : Found matches =   2  rules: 45,194
+Packet   756  : Found matches =   1  rules: 45
+Packet   757  : Found matches =   1  rules: 195
+Packet   758  : Found matches =   1  rules: 195
+Packet   759  : Found matches =   1  rules: 196
+Packet   760  : Found matches =   0  rules:
+Packet:  761  is invalid.
+Packet   762  : Found matches =   1  rules: 196
+Packet   763  : Found matches =   1  rules: 196
+Packet   764  : Found matches =   1  rules: 197
+Packet   765  : Found matches =   0  rules:
+Packet   766  : Found matches =   1  rules: 197
+Packet   767  : Found matches =   0  rules:
+Packet   768  : Found matches =   1  rules: 197
+Packet:  769  is invalid.
+Packet   770  : Found matches =   0  rules:
+Packet   771  : Found matches =   2  rules: 45,198
+Packet   772  : Found matches =   1  rules: 199
+Packet   773  : Found matches =   1  rules: 199
+Packet   774  : Found matches =   1  rules: 200
+Packet   775  : Found matches =   0  rules:
+Packet   776  : Found matches =   1  rules: 200
+Packet:  777  is invalid.
+Packet   778  : Found matches =   1  rules: 255
+Packet   779  : Found matches =   1  rules: 201
+Packet   780  : Found matches =   1  rules: 201
+Packet   781  : Found matches =   1  rules: 201
+Packet   782  : Found matches =   1  rules: 201
+Packet   783  : Found matches =   1  rules: 202
+Packet   784  : Found matches =   1  rules: 202
+Packet   785  : Found matches =   1  rules: 202
+Packet:  786  is invalid.
+Packet:  787  is invalid.
+Packet   788  : Found matches =   0  rules:
+Packet   789  : Found matches =   1  rules: 203
+Packet   790  : Found matches =   0  rules:
+Packet   791  : Found matches =   1  rules: 203
+Packet   792  : Found matches =   1  rules: 204
+Packet:  793  is invalid.
+Packet   794  : Found matches =   1  rules: 205
+Packet   795  : Found matches =   1  rules: 205
+Packet   796  : Found matches =   1  rules: 205
+Packet:  797  is invalid.
+Packet   798  : Found matches =   1  rules: 205
+Packet   799  : Found matches =   1  rules: 206
+Packet   800  : Found matches =   0  rules:
+Packet:  801  is invalid.
+Packet:  802  is invalid.
+Packet   803  : Found matches =   1  rules: 206
+Packet:  804  is invalid.
+Packet:  805  is invalid.
+Packet   806  : Found matches =   1  rules: 207
+Packet   807  : Found matches =   0  rules:
+Packet   808  : Found matches =   0  rules:
+Packet   809  : Found matches =   1  rules: 207
+Packet   810  : Found matches =   1  rules: 207
+Packet   811  : Found matches =   0  rules:
+Packet   812  : Found matches =   2  rules: 45,208
+Packet   813  : Found matches =   1  rules: 209
+Packet   814  : Found matches =   1  rules: 209
+Packet   815  : Found matches =   1  rules: 209
+Packet   816  : Found matches =   1  rules: 210
+Packet   817  : Found matches =   1  rules: 210
+Packet   818  : Found matches =   0  rules:
+Packet   819  : Found matches =   0  rules:
+Packet   820  : Found matches =   0  rules:
+Packet   821  : Found matches =   1  rules: 210
+Packet   822  : Found matches =   1  rules: 211
+Packet   823  : Found matches =   1  rules: 211
+Packet   824  : Found matches =   1  rules: 211
+Packet   825  : Found matches =   1  rules: 211
+Packet   826  : Found matches =   1  rules: 211
+Packet:  827  is invalid.
+Packet   828  : Found matches =   0  rules:
+Packet   829  : Found matches =   1  rules: 212
+Packet:  830  is invalid.
+Packet   831  : Found matches =   1  rules: 213
+Packet   832  : Found matches =   1  rules: 213
+Packet   833  : Found matches =   0  rules:
+Packet   834  : Found matches =   0  rules:
+Packet   835  : Found matches =   1  rules: 213
+Packet   836  : Found matches =   0  rules:
+Packet   837  : Found matches =   1  rules: 214
+Packet   838  : Found matches =   1  rules: 214
+Packet   839  : Found matches =   1  rules: 214
+Packet:  840  is invalid.
+Packet   841  : Found matches =   1  rules: 215
+Packet   842  : Found matches =   1  rules: 215
+Packet   843  : Found matches =   0  rules:
+Packet:  844  is invalid.
+Packet   845  : Found matches =   1  rules: 215
+Packet   846  : Found matches =   1  rules: 216
+Packet   847  : Found matches =   1  rules: 216
+Packet   848  : Found matches =   0  rules:
+Packet   849  : Found matches =   2  rules: 45,216
+Packet   850  : Found matches =   1  rules: 216
+Packet   851  : Found matches =   0  rules:
+Packet   852  : Found matches =   0  rules:
+Packet   853  : Found matches =   0  rules:
+Packet   854  : Found matches =   1  rules: 218
+Packet   855  : Found matches =   1  rules: 218
+Packet   856  : Found matches =   1  rules: 45
+Packet   857  : Found matches =   1  rules: 218
+Packet   858  : Found matches =   1  rules: 218
+Packet   859  : Found matches =   1  rules: 218
+Packet   860  : Found matches =   0  rules:
+Packet   861  : Found matches =   1  rules: 219
+Packet   862  : Found matches =   1  rules: 219
+Packet   863  : Found matches =   0  rules:
+Packet:  864  is invalid.
+Packet   865  : Found matches =   2  rules: 45,220
+Packet   866  : Found matches =   2  rules: 45,220
+Packet   867  : Found matches =   2  rules: 45,221
+Packet   868  : Found matches =   1  rules: 221
+Packet   869  : Found matches =   1  rules: 222
+Packet:  870  is invalid.
+Packet   871  : Found matches =   1  rules: 222
+Packet   872  : Found matches =   1  rules: 223
+Packet   873  : Found matches =   1  rules: 223
+Packet:  874  is invalid.
+Packet:  875  is invalid.
+Packet   876  : Found matches =   1  rules: 223
+Packet:  877  is invalid.
+Packet   878  : Found matches =   2  rules: 45,224
+Packet   879  : Found matches =   2  rules: 45,224
+Packet   880  : Found matches =   2  rules: 45,224
+Packet   881  : Found matches =   2  rules: 45,224
+Packet   882  : Found matches =   0  rules:
+Packet:  883  is invalid.
+Packet:  884  is invalid.
+Packet   885  : Found matches =   1  rules: 45
+Packet   886  : Found matches =   1  rules: 226
+Packet   887  : Found matches =   0  rules:
+Packet   888  : Found matches =   0  rules:
+Packet   889  : Found matches =   2  rules: 45,227
+Packet   890  : Found matches =   0  rules:
+Packet   891  : Found matches =   1  rules: 228
+Packet   892  : Found matches =   1  rules: 228
+Packet   893  : Found matches =   1  rules: 228
+Packet   894  : Found matches =   1  rules: 45
+Packet   895  : Found matches =   1  rules: 229
+Packet   896  : Found matches =   1  rules: 229
+Packet   897  : Found matches =   1  rules: 229
+Packet   898  : Found matches =   1  rules: 230
+Packet:  899  is invalid.
+Packet   900  : Found matches =   1  rules: 230
+Packet   901  : Found matches =   1  rules: 230
+Packet   902  : Found matches =   1  rules: 230
+Packet   903  : Found matches =   0  rules:
+Packet   904  : Found matches =   0  rules:
+Packet   905  : Found matches =   1  rules: 231
+Packet   906  : Found matches =   1  rules: 232
+Packet   907  : Found matches =   1  rules: 232
+Packet   908  : Found matches =   1  rules: 232
+Packet   909  : Found matches =   1  rules: 232
+Packet   910  : Found matches =   1  rules: 233
+Packet   911  : Found matches =   1  rules: 233
+Packet   912  : Found matches =   1  rules: 233
+Packet   913  : Found matches =   1  rules: 233
+Packet   914  : Found matches =   1  rules: 233
+Packet   915  : Found matches =   1  rules: 233
+Packet   916  : Found matches =   2  rules: 45,234
+Packet   917  : Found matches =   1  rules: 234
+Packet   918  : Found matches =   1  rules: 234
+Packet   919  : Found matches =   0  rules:
+Packet   920  : Found matches =   1  rules: 235
+Packet   921  : Found matches =   0  rules:
+Packet   922  : Found matches =   0  rules:
+Packet:  923  is invalid.
+Packet   924  : Found matches =   0  rules:
+Packet:  925  is invalid.
+Packet   926  : Found matches =   1  rules: 236
+Packet   927  : Found matches =   0  rules:
+Packet   928  : Found matches =   1  rules: 237
+Packet   929  : Found matches =   2  rules: 96,237
+Packet   930  : Found matches =   1  rules: 237
+Packet   931  : Found matches =   0  rules:
+Packet:  932  is invalid.
+Packet   933  : Found matches =   1  rules: 238
+Packet   934  : Found matches =   0  rules:
+Packet   935  : Found matches =   0  rules:
+Packet   936  : Found matches =   1  rules: 238
+Packet:  937  is invalid.
+Packet   938  : Found matches =   1  rules: 255
+Packet   939  : Found matches =   1  rules: 239
+Packet   940  : Found matches =   1  rules: 239
+Packet   941  : Found matches =   1  rules: 239
+Packet   942  : Found matches =   1  rules: 240
+Packet   943  : Found matches =   1  rules: 240
+Packet:  944  is invalid.
+Packet   945  : Found matches =   0  rules:
+Packet   946  : Found matches =   1  rules: 241
+Packet:  947  is invalid.
+Packet   948  : Found matches =   1  rules: 241
+Packet   949  : Found matches =   0  rules:
+Packet   950  : Found matches =   0  rules:
+Packet   951  : Found matches =   2  rules: 45,242
+Packet   952  : Found matches =   2  rules: 45,242
+Packet   953  : Found matches =   2  rules: 45,242
+Packet   954  : Found matches =   2  rules: 45,242
+Packet   955  : Found matches =   1  rules: 243
+Packet   956  : Found matches =   0  rules:
+Packet   957  : Found matches =   0  rules:
+Packet   958  : Found matches =   1  rules: 243
+Packet   959  : Found matches =   1  rules: 243
+Packet   960  : Found matches =   1  rules: 244
+Packet   961  : Found matches =   1  rules: 244
+Packet:  962  is invalid.
+Packet   963  : Found matches =   1  rules: 244
+Packet   964  : Found matches =   1  rules: 244
+Packet   965  : Found matches =   0  rules:
+Packet   966  : Found matches =   1  rules: 245
+Packet   967  : Found matches =   1  rules: 245
+Packet   968  : Found matches =   0  rules:
+Packet   969  : Found matches =   1  rules: 246
+Packet:  970  is invalid.
+Packet:  971  is invalid.
+Packet   972  : Found matches =   1  rules: 246
+Packet   973  : Found matches =   1  rules: 246
+Packet   974  : Found matches =   0  rules:
+Packet   975  : Found matches =   0  rules:
+Packet   976  : Found matches =   1  rules: 247
+Packet   977  : Found matches =   1  rules: 247
+Packet   978  : Found matches =   0  rules:
+Packet   979  : Found matches =   1  rules: 248
+Packet   980  : Found matches =   1  rules: 248
+Packet   981  : Found matches =   1  rules: 248
+Packet   982  : Found matches =   1  rules: 248
+Packet   983  : Found matches =   1  rules: 249
+Packet   984  : Found matches =   1  rules: 249
+Packet   985  : Found matches =   1  rules: 249
+Packet   986  : Found matches =   1  rules: 250
+Packet   987  : Found matches =   0  rules:
+Packet   988  : Found matches =   1  rules: 250
+Packet   989  : Found matches =   1  rules: 251
+Packet   990  : Found matches =   1  rules: 251
+Packet:  991  is invalid.
+Packet   992  : Found matches =   2  rules: 45,252
+Packet:  993  is invalid.
+Packet   994  : Found matches =   1  rules: 252
+Packet   995  : Found matches =   3  rules: 45,252,296
+Packet   996  : Found matches =   2  rules: 45,252
+Packet:  997  is invalid.
+Packet:  998  is invalid.
+Packet   999  : Found matches =   1  rules: 253
+Packet:  1000  is invalid.
+Packet:  1001  is invalid.
+Packet:  1002  is invalid.
+Packet   1003  : Found matches =   1  rules: 255
+Packet   1004  : Found matches =   1  rules: 255
+Packet:  1005  is invalid.
+Packet   1006  : Found matches =   1  rules: 255
+Packet   1007  : Found matches =   1  rules: 255
+Packet   1008  : Found matches =   0  rules:
+Packet   1009  : Found matches =   0  rules:
+Packet   1010  : Found matches =   1  rules: 256
+Packet   1011  : Found matches =   1  rules: 257
+Packet   1012  : Found matches =   1  rules: 257
+Packet   1013  : Found matches =   1  rules: 257
+Packet   1014  : Found matches =   1  rules: 258
+Packet   1015  : Found matches =   1  rules: 258
+Packet   1016  : Found matches =   1  rules: 258
+Packet   1017  : Found matches =   0  rules:
+Packet   1018  : Found matches =   1  rules: 259
+Packet   1019  : Found matches =   1  rules: 259
+Packet   1020  : Found matches =   1  rules: 260
+Packet   1021  : Found matches =   1  rules: 260
+Packet:  1022  is invalid.
+Packet:  1023  is invalid.
+Packet   1024  : Found matches =   1  rules: 260
+Packet:  1025  is invalid.
+Packet   1026  : Found matches =   1  rules: 261
+Packet   1027  : Found matches =   1  rules: 261
+Packet   1028  : Found matches =   1  rules: 261
+Packet   1029  : Found matches =   1  rules: 261
+Packet   1030  : Found matches =   1  rules: 261
+Packet   1031  : Found matches =   1  rules: 261
+Packet   1032  : Found matches =   1  rules: 262
+Packet   1033  : Found matches =   2  rules: 45,262
+Packet   1034  : Found matches =   2  rules: 45,262
+Packet   1035  : Found matches =   2  rules: 45,262
+Packet   1036  : Found matches =   2  rules: 45,262
+Packet   1037  : Found matches =   1  rules: 263
+Packet   1038  : Found matches =   0  rules:
+Packet   1039  : Found matches =   1  rules: 263
+Packet   1040  : Found matches =   1  rules: 263
+Packet   1041  : Found matches =   0  rules:
+Packet   1042  : Found matches =   1  rules: 264
+Packet   1043  : Found matches =   1  rules: 264
+Packet   1044  : Found matches =   0  rules:
+Packet   1045  : Found matches =   1  rules: 265
+Packet   1046  : Found matches =   1  rules: 265
+Packet:  1047  is invalid.
+Packet   1048  : Found matches =   1  rules: 266
+Packet   1049  : Found matches =   1  rules: 45
+Packet:  1050  is invalid.
+Packet:  1051  is invalid.
+Packet   1052  : Found matches =   1  rules: 267
+Packet   1053  : Found matches =   0  rules:
+Packet   1054  : Found matches =   1  rules: 268
+Packet   1055  : Found matches =   1  rules: 268
+Packet   1056  : Found matches =   0  rules:
+Packet   1057  : Found matches =   1  rules: 268
+Packet   1058  : Found matches =   1  rules: 268
+Packet   1059  : Found matches =   1  rules: 268
+Packet   1060  : Found matches =   0  rules:
+Packet   1061  : Found matches =   1  rules: 269
+Packet   1062  : Found matches =   0  rules:
+Packet   1063  : Found matches =   1  rules: 270
+Packet   1064  : Found matches =   1  rules: 270
+Packet   1065  : Found matches =   0  rules:
+Packet   1066  : Found matches =   2  rules: 45,271
+Packet   1067  : Found matches =   1  rules: 271
+Packet   1068  : Found matches =   1  rules: 271
+Packet   1069  : Found matches =   1  rules: 271
+Packet   1070  : Found matches =   1  rules: 272
+Packet   1071  : Found matches =   1  rules: 45
+Packet   1072  : Found matches =   0  rules:
+Packet   1073  : Found matches =   1  rules: 272
+Packet   1074  : Found matches =   1  rules: 272
+Packet   1075  : Found matches =   0  rules:
+Packet:  1076  is invalid.
+Packet   1077  : Found matches =   1  rules: 273
+Packet   1078  : Found matches =   0  rules:
+Packet   1079  : Found matches =   1  rules: 274
+Packet   1080  : Found matches =   1  rules: 274
+Packet   1081  : Found matches =   0  rules:
+Packet   1082  : Found matches =   1  rules: 274
+Packet   1083  : Found matches =   1  rules: 274
+Packet:  1084  is invalid.
+Packet   1085  : Found matches =   1  rules: 275
+Packet   1086  : Found matches =   1  rules: 275
+Packet   1087  : Found matches =   1  rules: 275
+Packet   1088  : Found matches =   0  rules:
+Packet   1089  : Found matches =   0  rules:
+Packet   1090  : Found matches =   1  rules: 276
+Packet   1091  : Found matches =   1  rules: 277
+Packet   1092  : Found matches =   1  rules: 277
+Packet   1093  : Found matches =   1  rules: 277
+Packet   1094  : Found matches =   0  rules:
+Packet   1095  : Found matches =   1  rules: 45
+Packet   1096  : Found matches =   1  rules: 277
+Packet   1097  : Found matches =   1  rules: 278
+Packet   1098  : Found matches =   1  rules: 278
+Packet   1099  : Found matches =   1  rules: 279
+Packet   1100  : Found matches =   0  rules:
+Packet   1101  : Found matches =   1  rules: 279
+Packet   1102  : Found matches =   0  rules:
+Packet   1103  : Found matches =   1  rules: 45
+Packet:  1104  is invalid.
+Packet   1105  : Found matches =   1  rules: 281
+Packet   1106  : Found matches =   2  rules: 255,281
+Packet   1107  : Found matches =   1  rules: 281
+Packet:  1108  is invalid.
+Packet:  1109  is invalid.
+Packet   1110  : Found matches =   1  rules: 282
+Packet   1111  : Found matches =   1  rules: 282
+Packet   1112  : Found matches =   1  rules: 282
+Packet   1113  : Found matches =   1  rules: 283
+Packet   1114  : Found matches =   1  rules: 283
+Packet   1115  : Found matches =   1  rules: 283
+Packet   1116  : Found matches =   1  rules: 283
+Packet   1117  : Found matches =   1  rules: 283
+Packet   1118  : Found matches =   1  rules: 284
+Packet   1119  : Found matches =   1  rules: 284
+Packet   1120  : Found matches =   1  rules: 285
+Packet   1121  : Found matches =   0  rules:
+Packet   1122  : Found matches =   1  rules: 285
+Packet   1123  : Found matches =   1  rules: 286
+Packet   1124  : Found matches =   1  rules: 286
+Packet   1125  : Found matches =   1  rules: 286
+Packet   1126  : Found matches =   1  rules: 286
+Packet   1127  : Found matches =   1  rules: 286
+Packet   1128  : Found matches =   0  rules:
+Packet:  1129  is invalid.
+Packet   1130  : Found matches =   1  rules: 287
+Packet:  1131  is invalid.
+Packet   1132  : Found matches =   0  rules:
+Packet   1133  : Found matches =   0  rules:
+Packet   1134  : Found matches =   1  rules: 288
+Packet   1135  : Found matches =   0  rules:
+Packet   1136  : Found matches =   1  rules: 289
+Packet   1137  : Found matches =   1  rules: 289
+Packet   1138  : Found matches =   1  rules: 289
+Packet   1139  : Found matches =   1  rules: 289
+Packet:  1140  is invalid.
+Packet   1141  : Found matches =   1  rules: 290
+Packet:  1142  is invalid.
+Packet   1143  : Found matches =   1  rules: 290
+Packet   1144  : Found matches =   1  rules: 290
+Packet   1145  : Found matches =   1  rules: 291
+Packet   1146  : Found matches =   0  rules:
+Packet   1147  : Found matches =   1  rules: 291
+Packet   1148  : Found matches =   1  rules: 291
+Packet   1149  : Found matches =   1  rules: 291
+Packet   1150  : Found matches =   1  rules: 291
+Packet   1151  : Found matches =   0  rules:
+Packet   1152  : Found matches =   1  rules: 292
+Packet   1153  : Found matches =   1  rules: 292
+Packet   1154  : Found matches =   1  rules: 292
+Packet   1155  : Found matches =   0  rules:
+Packet:  1156  is invalid.
+Packet   1157  : Found matches =   0  rules:
+Packet   1158  : Found matches =   1  rules: 293
+Packet:  1159  is invalid.
+Packet:  1160  is invalid.
+Packet:  1161  is invalid.
+Packet   1162  : Found matches =   1  rules: 294
+Packet   1163  : Found matches =   1  rules: 294
+Packet   1164  : Found matches =   1  rules: 294
+Packet   1165  : Found matches =   0  rules:
+Packet:  1166  is invalid.
+Packet   1167  : Found matches =   1  rules: 295
+Packet   1168  : Found matches =   1  rules: 295
+Packet   1169  : Found matches =   1  rules: 295
+Packet   1170  : Found matches =   1  rules: 295
+Packet   1171  : Found matches =   0  rules:
+Packet   1172  : Found matches =   1  rules: 296
+Packet:  1173  is invalid.
+Packet   1174  : Found matches =   2  rules: 45,296
+Packet:  1175  is invalid.
+Packet   1176  : Found matches =   0  rules:
+Packet   1177  : Found matches =   0  rules:
+Packet   1178  : Found matches =   2  rules: 45,297
+Packet   1179  : Found matches =   0  rules:
+Packet   1180  : Found matches =   1  rules: 298
+Packet   1181  : Found matches =   0  rules:
+Packet   1182  : Found matches =   1  rules: 298
+Packet   1183  : Found matches =   0  rules:
+Packet   1184  : Found matches =   2  rules: 255,299
+Packet   1185  : Found matches =   0  rules:
+Packet   1186  : Found matches =   0  rules:
+Packet   1187  : Found matches =   0  rules:
+Packet   1188  : Found matches =   1  rules: 45
+Packet   1189  : Found matches =   1  rules: 299
+Packet   1190  : Found matches =   0  rules:
+Packet   1191  : Found matches =   0  rules:
+Packet   1192  : Found matches =   1  rules: 300
+Packet   1193  : Found matches =   0  rules:
+Packet   1194  : Found matches =   1  rules: 300
+Packet   1195  : Found matches =   0  rules:
+Packet   1196  : Found matches =   0  rules:
+Packet   1197  : Found matches =   0  rules:
+Packet   1198  : Found matches =   0  rules:
+Packet   1199  : Found matches =   1  rules: 301
+Packet   1200  : Found matches =   1  rules: 302
+Packet   1201  : Found matches =   0  rules:
+Packet   1202  : Found matches =   1  rules: 302
+Packet   1203  : Found matches =   1  rules: 302
+Packet   1204  : Found matches =   1  rules: 302
+Packet   1205  : Found matches =   1  rules: 303
+Packet   1206  : Found matches =   1  rules: 303
+Packet   1207  : Found matches =   0  rules:
+Packet   1208  : Found matches =   1  rules: 303
+Packet   1209  : Found matches =   0  rules:
+Packet   1210  : Found matches =   2  rules: 45,304
+Packet   1211  : Found matches =   1  rules: 304
+Packet   1212  : Found matches =   0  rules:
+Packet   1213  : Found matches =   1  rules: 305
+Packet   1214  : Found matches =   1  rules: 305
+Packet   1215  : Found matches =   0  rules:
+Packet   1216  : Found matches =   0  rules:
+Packet   1217  : Found matches =   0  rules:
+Packet   1218  : Found matches =   1  rules: 307
+Packet   1219  : Found matches =   1  rules: 307
+Packet   1220  : Found matches =   0  rules:
+Packet   1221  : Found matches =   0  rules:
+Packet   1222  : Found matches =   1  rules: 307
+Packet   1223  : Found matches =   1  rules: 307
+Packet   1224  : Found matches =   0  rules:
+Packet   1225  : Found matches =   0  rules:
+Packet   1226  : Found matches =   0  rules:
+Packet   1227  : Found matches =   1  rules: 45
+Packet   1228  : Found matches =   1  rules: 45
+Packet   1229  : Found matches =   0  rules:
+Packet:  1230  is invalid.
+Packet   1231  : Found matches =   0  rules:
+Packet   1232  : Found matches =   0  rules:
+Packet   1233  : Found matches =   1  rules: 310
+Packet   1234  : Found matches =   1  rules: 310
+Packet   1235  : Found matches =   1  rules: 310
+Packet   1236  : Found matches =   1  rules: 310
+Packet   1237  : Found matches =   0  rules:
+Packet   1238  : Found matches =   1  rules: 311
+Packet   1239  : Found matches =   1  rules: 311
+Packet   1240  : Found matches =   1  rules: 311
+Packet   1241  : Found matches =   0  rules:
+Packet   1242  : Found matches =   1  rules: 311
+Packet   1243  : Found matches =   1  rules: 45
+Packet   1244  : Found matches =   2  rules: 45,312
+Packet   1245  : Found matches =   1  rules: 312
+Packet   1246  : Found matches =   1  rules: 312
+Packet   1247  : Found matches =   0  rules:
+Packet:  1248  is invalid.
+Packet   1249  : Found matches =   0  rules:
+Packet   1250  : Found matches =   2  rules: 45,314
+Packet   1251  : Found matches =   3  rules: 45,296,314
+Packet:  1252  is invalid.
+Packet   1253  : Found matches =   1  rules: 315
+Packet   1254  : Found matches =   1  rules: 315
+Packet   1255  : Found matches =   1  rules: 315
+Packet   1256  : Found matches =   1  rules: 315
+Packet   1257  : Found matches =   1  rules: 315
+Packet   1258  : Found matches =   1  rules: 45
+Packet   1259  : Found matches =   2  rules: 45,316
+Packet:  1260  is invalid.
+Packet   1261  : Found matches =   0  rules:
+Packet   1262  : Found matches =   1  rules: 45
+Packet   1263  : Found matches =   1  rules: 318
+Packet   1264  : Found matches =   1  rules: 318
+Packet   1265  : Found matches =   0  rules:
+Packet   1266  : Found matches =   1  rules: 319
+Packet   1267  : Found matches =   2  rules: 45,319
+Packet   1268  : Found matches =   1  rules: 319
+Packet   1269  : Found matches =   0  rules:
+Packet   1270  : Found matches =   2  rules: 45,319
+Packet   1271  : Found matches =   0  rules:
+Packet   1272  : Found matches =   0  rules:
+Packet   1273  : Found matches =   1  rules: 321
+Packet   1274  : Found matches =   1  rules: 321
+Packet   1275  : Found matches =   1  rules: 321
+Packet:  1276  is invalid.
+Packet   1277  : Found matches =   0  rules:
+Packet   1278  : Found matches =   0  rules:
+Packet   1279  : Found matches =   1  rules: 322
+Packet:  1280  is invalid.
+Packet:  1281  is invalid.
+Packet:  1282  is invalid.
+Packet   1283  : Found matches =   1  rules: 323
+Packet:  1284  is invalid.
+Packet   1285  : Found matches =   1  rules: 324
+Packet   1286  : Found matches =   1  rules: 324
+Packet   1287  : Found matches =   2  rules: 45,324
+Packet   1288  : Found matches =   0  rules:
+Packet:  1289  is invalid.
+Packet   1290  : Found matches =   1  rules: 325
+Packet:  1291  is invalid.
+Packet:  1292  is invalid.
+Packet   1293  : Found matches =   1  rules: 325
+Packet   1294  : Found matches =   1  rules: 326
+Packet   1295  : Found matches =   0  rules:
+Packet   1296  : Found matches =   1  rules: 326
+Packet   1297  : Found matches =   1  rules: 326
+Packet   1298  : Found matches =   0  rules:
+Packet:  1299  is invalid.
+Packet   1300  : Found matches =   1  rules: 327
+Packet   1301  : Found matches =   1  rules: 327
+Packet   1302  : Found matches =   0  rules:
+Packet   1303  : Found matches =   1  rules: 328
+Packet   1304  : Found matches =   1  rules: 328
+Packet   1305  : Found matches =   1  rules: 328
+Packet:  1306  is invalid.
+Packet   1307  : Found matches =   1  rules: 329
+Packet:  1308  is invalid.
+Packet   1309  : Found matches =   1  rules: 329
+Packet:  1310  is invalid.
+Packet   1311  : Found matches =   0  rules:
+Packet   1312  : Found matches =   1  rules: 330
+Packet   1313  : Found matches =   1  rules: 330
+Packet   1314  : Found matches =   0  rules:
+Packet   1315  : Found matches =   1  rules: 331
+Packet   1316  : Found matches =   1  rules: 331
+Packet   1317  : Found matches =   1  rules: 331
+Packet   1318  : Found matches =   0  rules:
+Packet   1319  : Found matches =   1  rules: 331
+Packet   1320  : Found matches =   0  rules:
+Packet   1321  : Found matches =   0  rules:
+Packet   1322  : Found matches =   1  rules: 333
+Packet   1323  : Found matches =   1  rules: 333
+Packet:  1324  is invalid.
+Packet   1325  : Found matches =   1  rules: 333
+Packet   1326  : Found matches =   2  rules: 45,334
+Packet   1327  : Found matches =   0  rules:
+Packet   1328  : Found matches =   0  rules:
+Packet   1329  : Found matches =   1  rules: 334
+Packet:  1330  is invalid.
+Packet:  1331  is invalid.
+Packet   1332  : Found matches =   1  rules: 335
+Packet   1333  : Found matches =   1  rules: 336
+Packet   1334  : Found matches =   1  rules: 336
+Packet   1335  : Found matches =   1  rules: 336
+Packet   1336  : Found matches =   1  rules: 336
+Packet   1337  : Found matches =   1  rules: 336
+Packet   1338  : Found matches =   1  rules: 337
+Packet:  1339  is invalid.
+Packet   1340  : Found matches =   0  rules:
+Packet   1341  : Found matches =   2  rules: 45,338
+Packet   1342  : Found matches =   2  rules: 45,338
+Packet   1343  : Found matches =   0  rules:
+Packet   1344  : Found matches =   1  rules: 339
+Packet   1345  : Found matches =   0  rules:
+Packet   1346  : Found matches =   0  rules:
+Packet   1347  : Found matches =   1  rules: 340
+Packet   1348  : Found matches =   0  rules:
+Packet   1349  : Found matches =   1  rules: 45
+Packet   1350  : Found matches =   2  rules: 45,341
+Packet   1351  : Found matches =   0  rules:
+Packet   1352  : Found matches =   2  rules: 45,341
+Packet   1353  : Found matches =   1  rules: 342
+Packet   1354  : Found matches =   1  rules: 45
+Packet   1355  : Found matches =   1  rules: 342
+Packet   1356  : Found matches =   1  rules: 342
+Packet   1357  : Found matches =   1  rules: 342
+Packet   1358  : Found matches =   1  rules: 343
+Packet   1359  : Found matches =   0  rules:
+Packet   1360  : Found matches =   1  rules: 343
+Packet   1361  : Found matches =   1  rules: 343
+Packet   1362  : Found matches =   1  rules: 344
+Packet:  1363  is invalid.
+Packet   1364  : Found matches =   1  rules: 345
+Packet   1365  : Found matches =   0  rules:
+Packet   1366  : Found matches =   1  rules: 345
+Packet   1367  : Found matches =   0  rules:
+Packet   1368  : Found matches =   0  rules:
+Packet:  1369  is invalid.
+Packet:  1370  is invalid.
+Packet   1371  : Found matches =   0  rules:
+Packet   1372  : Found matches =   1  rules: 346
+Packet   1373  : Found matches =   1  rules: 346
+Packet   1374  : Found matches =   1  rules: 347
+Packet   1375  : Found matches =   1  rules: 347
+Packet   1376  : Found matches =   1  rules: 347
+Packet   1377  : Found matches =   1  rules: 347
+Packet   1378  : Found matches =   1  rules: 347
+Packet   1379  : Found matches =   1  rules: 348
+Packet   1380  : Found matches =   1  rules: 45
+Packet   1381  : Found matches =   1  rules: 348
+Packet   1382  : Found matches =   1  rules: 348
+Packet   1383  : Found matches =   1  rules: 349
+Packet:  1384  is invalid.
+Packet   1385  : Found matches =   0  rules:
+Packet   1386  : Found matches =   1  rules: 45
+Packet   1387  : Found matches =   1  rules: 45
+Packet   1388  : Found matches =   2  rules: 45,350
+Packet   1389  : Found matches =   2  rules: 45,350
+Packet   1390  : Found matches =   2  rules: 45,350
+Packet   1391  : Found matches =   1  rules: 351
+Packet   1392  : Found matches =   1  rules: 351
+Packet:  1393  is invalid.
+Packet   1394  : Found matches =   1  rules: 352
+Packet   1395  : Found matches =   1  rules: 352
+Packet   1396  : Found matches =   1  rules: 352
+Packet   1397  : Found matches =   0  rules:
+Packet:  1398  is invalid.
+Packet:  1399  is invalid.
+Packet   1400  : Found matches =   1  rules: 255
+Packet   1401  : Found matches =   1  rules: 353
+Packet   1402  : Found matches =   1  rules: 45
+Packet   1403  : Found matches =   1  rules: 354
+Packet:  1404  is invalid.
+Packet   1405  : Found matches =   0  rules:
+Packet   1406  : Found matches =   1  rules: 354
+Packet   1407  : Found matches =   1  rules: 354
+Packet   1408  : Found matches =   1  rules: 355
+Packet   1409  : Found matches =   0  rules:
+Packet   1410  : Found matches =   1  rules: 355
+Packet   1411  : Found matches =   0  rules:
+Packet   1412  : Found matches =   1  rules: 356
+Packet   1413  : Found matches =   1  rules: 356
+Packet   1414  : Found matches =   1  rules: 356
+Packet   1415  : Found matches =   1  rules: 356
+Packet   1416  : Found matches =   1  rules: 356
+Packet   1417  : Found matches =   1  rules: 357
+Packet   1418  : Found matches =   1  rules: 357
+Packet   1419  : Found matches =   1  rules: 357
+Packet   1420  : Found matches =   1  rules: 358
+Packet   1421  : Found matches =   1  rules: 358
+Packet   1422  : Found matches =   1  rules: 359
+Packet:  1423  is invalid.
+Packet   1424  : Found matches =   0  rules:
+Packet   1425  : Found matches =   1  rules: 359
+Packet   1426  : Found matches =   2  rules: 45,360
+Packet:  1427  is invalid.
+Packet   1428  : Found matches =   2  rules: 45,360
+Packet   1429  : Found matches =   2  rules: 45,360
+Packet   1430  : Found matches =   1  rules: 361
+Packet   1431  : Found matches =   0  rules:
+Packet   1432  : Found matches =   0  rules:
+Packet   1433  : Found matches =   0  rules:
+Packet   1434  : Found matches =   1  rules: 362
+Packet   1435  : Found matches =   1  rules: 362
+Packet   1436  : Found matches =   1  rules: 362
+Packet   1437  : Found matches =   1  rules: 362
+Packet   1438  : Found matches =   0  rules:
+Packet   1439  : Found matches =   1  rules: 363
+Packet   1440  : Found matches =   2  rules: 45,363
+Packet   1441  : Found matches =   1  rules: 363
+Packet   1442  : Found matches =   1  rules: 364
+Packet   1443  : Found matches =   1  rules: 296
+Packet   1444  : Found matches =   1  rules: 365
+Packet   1445  : Found matches =   1  rules: 365
+Packet   1446  : Found matches =   1  rules: 366
+Packet   1447  : Found matches =   1  rules: 366
+Packet   1448  : Found matches =   1  rules: 366
+Packet:  1449  is invalid.
+Packet   1450  : Found matches =   1  rules: 45
+Packet   1451  : Found matches =   1  rules: 367
+Packet   1452  : Found matches =   1  rules: 367
+Packet   1453  : Found matches =   1  rules: 367
+Packet   1454  : Found matches =   1  rules: 368
+Packet   1455  : Found matches =   0  rules:
+Packet   1456  : Found matches =   0  rules:
+Packet   1457  : Found matches =   1  rules: 368
+Packet   1458  : Found matches =   1  rules: 368
+Packet   1459  : Found matches =   1  rules: 368
+Packet   1460  : Found matches =   0  rules:
+Packet   1461  : Found matches =   1  rules: 369
+Packet   1462  : Found matches =   0  rules:
+Packet   1463  : Found matches =   0  rules:
+Packet   1464  : Found matches =   0  rules:
+Packet:  1465  is invalid.
+Packet:  1466  is invalid.
+Packet   1467  : Found matches =   1  rules: 370
+Packet   1468  : Found matches =   1  rules: 370
+Packet:  1469  is invalid.
+Packet   1470  : Found matches =   1  rules: 371
+Packet   1471  : Found matches =   2  rules: 45,371
+Packet:  1472  is invalid.
+Packet   1473  : Found matches =   2  rules: 45,372
+Packet   1474  : Found matches =   2  rules: 45,372
+Packet:  1475  is invalid.
+Packet   1476  : Found matches =   2  rules: 45,372
+Packet   1477  : Found matches =   1  rules: 45
+Packet   1478  : Found matches =   1  rules: 373
+Packet   1479  : Found matches =   0  rules:
+Packet   1480  : Found matches =   0  rules:
+Packet:  1481  is invalid.
+Packet   1482  : Found matches =   1  rules: 374
+Packet   1483  : Found matches =   1  rules: 374
+Packet   1484  : Found matches =   1  rules: 375
+Packet   1485  : Found matches =   1  rules: 375
+Packet   1486  : Found matches =   1  rules: 375
+Packet   1487  : Found matches =   1  rules: 375
+Packet   1488  : Found matches =   0  rules:
+Packet   1489  : Found matches =   1  rules: 376
+Packet   1490  : Found matches =   1  rules: 377
+Packet:  1491  is invalid.
+Packet:  1492  is invalid.
+Packet   1493  : Found matches =   0  rules:
+Packet   1494  : Found matches =   0  rules:
+Packet   1495  : Found matches =   1  rules: 378
+Packet   1496  : Found matches =   1  rules: 378
+Packet:  1497  is invalid.
+Packet   1498  : Found matches =   1  rules: 378
+Packet   1499  : Found matches =   1  rules: 379
+Packet   1500  : Found matches =   1  rules: 379
+Packet   1501  : Found matches =   1  rules: 379
+Packet   1502  : Found matches =   1  rules: 380
+Packet   1503  : Found matches =   0  rules:
+Packet   1504  : Found matches =   1  rules: 380
+Packet   1505  : Found matches =   0  rules:
+Packet   1506  : Found matches =   1  rules: 381
+Packet   1507  : Found matches =   0  rules:
+Packet   1508  : Found matches =   1  rules: 382
+Packet:  1509  is invalid.
+Packet:  1510  is invalid.
+Packet:  1511  is invalid.
+Packet   1512  : Found matches =   0  rules:
+Packet:  1513  is invalid.
+Packet   1514  : Found matches =   1  rules: 383
+Packet:  1515  is invalid.
+Packet:  1516  is invalid.
+Packet:  1517  is invalid.
+Packet:  1518  is invalid.
+Packet:  1519  is invalid.
+Packet   1520  : Found matches =   1  rules: 384
+Packet   1521  : Found matches =   1  rules: 385
+Packet   1522  : Found matches =   0  rules:
+Packet   1523  : Found matches =   1  rules: 385
+Packet   1524  : Found matches =   0  rules:
+Packet   1525  : Found matches =   1  rules: 386
+Packet   1526  : Found matches =   1  rules: 386
+Packet   1527  : Found matches =   1  rules: 387
+Packet   1528  : Found matches =   1  rules: 387
+Packet   1529  : Found matches =   2  rules: 45,387
+Packet   1530  : Found matches =   1  rules: 387
+Packet:  1531  is invalid.
+Packet   1532  : Found matches =   2  rules: 45,387
+Packet   1533  : Found matches =   1  rules: 388
+Packet   1534  : Found matches =   0  rules:
+Packet:  1535  is invalid.
+Packet   1536  : Found matches =   1  rules: 388
+Packet   1537  : Found matches =   1  rules: 388
+Packet   1538  : Found matches =   0  rules:
+Packet   1539  : Found matches =   1  rules: 389
+Packet   1540  : Found matches =   1  rules: 390
+Packet:  1541  is invalid.
+Packet   1542  : Found matches =   0  rules:
+Packet   1543  : Found matches =   1  rules: 391
+Packet   1544  : Found matches =   0  rules:
+Packet:  1545  is invalid.
+Packet:  1546  is invalid.
+Packet   1547  : Found matches =   1  rules: 392
+Packet:  1548  is invalid.
+Packet   1549  : Found matches =   1  rules: 392
+Packet:  1550  is invalid.
+Packet   1551  : Found matches =   1  rules: 45
+Packet   1552  : Found matches =   1  rules: 393
+Packet   1553  : Found matches =   1  rules: 393
+Packet   1554  : Found matches =   1  rules: 393
+Packet   1555  : Found matches =   1  rules: 393
+Packet   1556  : Found matches =   1  rules: 394
+Packet   1557  : Found matches =   1  rules: 394
+Packet   1558  : Found matches =   1  rules: 394
+Packet   1559  : Found matches =   1  rules: 395
+Packet   1560  : Found matches =   1  rules: 395
+Packet:  1561  is invalid.
+Packet   1562  : Found matches =   1  rules: 395
+Packet   1563  : Found matches =   1  rules: 395
+Packet   1564  : Found matches =   0  rules:
+Packet   1565  : Found matches =   1  rules: 396
+Packet:  1566  is invalid.
+Packet   1567  : Found matches =   0  rules:
+Packet   1568  : Found matches =   1  rules: 396
+Packet   1569  : Found matches =   1  rules: 397
+Packet   1570  : Found matches =   1  rules: 397
+Packet   1571  : Found matches =   0  rules:
+Packet   1572  : Found matches =   1  rules: 398
+Packet:  1573  is invalid.
+Packet   1574  : Found matches =   1  rules: 398
+Packet   1575  : Found matches =   1  rules: 398
+Packet   1576  : Found matches =   1  rules: 45
+Packet   1577  : Found matches =   1  rules: 45
+Packet   1578  : Found matches =   2  rules: 45,399
+Packet   1579  : Found matches =   1  rules: 400
+Packet   1580  : Found matches =   1  rules: 400
+Packet   1581  : Found matches =   1  rules: 401
+Packet   1582  : Found matches =   1  rules: 401
+Packet:  1583  is invalid.
+Packet   1584  : Found matches =   1  rules: 401
+Packet   1585  : Found matches =   0  rules:
+Packet   1586  : Found matches =   2  rules: 45,402
+Packet   1587  : Found matches =   1  rules: 402
+Packet   1588  : Found matches =   1  rules: 402
+Packet   1589  : Found matches =   2  rules: 45,402
+Packet   1590  : Found matches =   2  rules: 45,402
+Packet   1591  : Found matches =   1  rules: 403
+Packet   1592  : Found matches =   1  rules: 403
+Packet   1593  : Found matches =   1  rules: 403
+Packet   1594  : Found matches =   1  rules: 403
+Packet   1595  : Found matches =   1  rules: 403
+Packet   1596  : Found matches =   2  rules: 45,404
+Packet   1597  : Found matches =   2  rules: 45,404
+Packet   1598  : Found matches =   0  rules:
+Packet   1599  : Found matches =   1  rules: 404
+Packet   1600  : Found matches =   0  rules:
+Packet   1601  : Found matches =   1  rules: 405
+Packet   1602  : Found matches =   0  rules:
+Packet   1603  : Found matches =   1  rules: 405
+Packet   1604  : Found matches =   2  rules: 45,406
+Packet   1605  : Found matches =   2  rules: 45,406
+Packet   1606  : Found matches =   2  rules: 45,407
+Packet   1607  : Found matches =   2  rules: 45,407
+Packet   1608  : Found matches =   1  rules: 407
+Packet   1609  : Found matches =   1  rules: 45
+Packet   1610  : Found matches =   0  rules:
+Packet:  1611  is invalid.
+Packet   1612  : Found matches =   1  rules: 45
+Packet   1613  : Found matches =   0  rules:
+Packet:  1614  is invalid.
+Packet:  1615  is invalid.
+Packet   1616  : Found matches =   1  rules: 408
+Packet   1617  : Found matches =   1  rules: 409
+Packet   1618  : Found matches =   0  rules:
+Packet:  1619  is invalid.
+Packet   1620  : Found matches =   0  rules:
+Packet:  1621  is invalid.
+Packet   1622  : Found matches =   0  rules:
+Packet   1623  : Found matches =   1  rules: 410
+Packet:  1624  is invalid.
+Packet   1625  : Found matches =   0  rules:
+Packet   1626  : Found matches =   0  rules:
+Packet   1627  : Found matches =   1  rules: 412
+Packet   1628  : Found matches =   1  rules: 412
+Packet:  1629  is invalid.
+Packet   1630  : Found matches =   1  rules: 412
+Packet:  1631  is invalid.
+Packet   1632  : Found matches =   0  rules:
+Packet   1633  : Found matches =   0  rules:
+Packet   1634  : Found matches =   1  rules: 413
+Packet   1635  : Found matches =   1  rules: 413
+Packet   1636  : Found matches =   1  rules: 413
+Packet   1637  : Found matches =   1  rules: 414
+Packet   1638  : Found matches =   1  rules: 414
+Packet   1639  : Found matches =   1  rules: 414
+Packet   1640  : Found matches =   1  rules: 414
+Packet   1641  : Found matches =   0  rules:
+Packet   1642  : Found matches =   0  rules:
+Packet   1643  : Found matches =   1  rules: 415
+Packet   1644  : Found matches =   1  rules: 415
+Packet   1645  : Found matches =   1  rules: 415
+Packet:  1646  is invalid.
+Packet:  1647  is invalid.
+Packet   1648  : Found matches =   1  rules: 416
+Packet   1649  : Found matches =   1  rules: 416
+Packet   1650  : Found matches =   1  rules: 416
+Packet:  1651  is invalid.
+Packet   1652  : Found matches =   1  rules: 417
+Packet   1653  : Found matches =   0  rules:
+Packet   1654  : Found matches =   0  rules:
+Packet   1655  : Found matches =   0  rules:
+Packet   1656  : Found matches =   1  rules: 417
+Packet   1657  : Found matches =   1  rules: 417
+Packet   1658  : Found matches =   1  rules: 418
+Packet   1659  : Found matches =   1  rules: 418
+Packet   1660  : Found matches =   1  rules: 418
+Packet:  1661  is invalid.
+Packet   1662  : Found matches =   0  rules:
+Packet   1663  : Found matches =   1  rules: 419
+Packet   1664  : Found matches =   1  rules: 419
+Packet:  1665  is invalid.
+Packet   1666  : Found matches =   2  rules: 255,420
+Packet:  1667  is invalid.
+Packet   1668  : Found matches =   1  rules: 421
+Packet   1669  : Found matches =   0  rules:
+Packet:  1670  is invalid.
+Packet   1671  : Found matches =   1  rules: 421
+Packet   1672  : Found matches =   1  rules: 421
+Packet:  1673  is invalid.
+Packet:  1674  is invalid.
+Packet   1675  : Found matches =   1  rules: 422
+Packet   1676  : Found matches =   1  rules: 422
+Packet:  1677  is invalid.
+Packet   1678  : Found matches =   0  rules:
+Packet   1679  : Found matches =   0  rules:
+Packet   1680  : Found matches =   0  rules:
+Packet   1681  : Found matches =   1  rules: 423
+Packet   1682  : Found matches =   1  rules: 423
+Packet   1683  : Found matches =   0  rules:
+Packet   1684  : Found matches =   0  rules:
+Packet   1685  : Found matches =   1  rules: 424
+Packet   1686  : Found matches =   1  rules: 424
+Packet   1687  : Found matches =   1  rules: 424
+Packet   1688  : Found matches =   1  rules: 424
+Packet   1689  : Found matches =   1  rules: 424
+Packet:  1690  is invalid.
+Packet:  1691  is invalid.
+Packet   1692  : Found matches =   2  rules: 45,425
+Packet   1693  : Found matches =   1  rules: 426
+Packet   1694  : Found matches =   1  rules: 426
+Packet   1695  : Found matches =   0  rules:
+Packet   1696  : Found matches =   1  rules: 427
+Packet   1697  : Found matches =   1  rules: 427
+Packet   1698  : Found matches =   1  rules: 427
+Packet   1699  : Found matches =   1  rules: 427
+Packet:  1700  is invalid.
+Packet   1701  : Found matches =   0  rules:
+Packet   1702  : Found matches =   2  rules: 45,428
+Packet   1703  : Found matches =   1  rules: 429
+Packet   1704  : Found matches =   0  rules:
+Packet   1705  : Found matches =   0  rules:
+Packet   1706  : Found matches =   1  rules: 429
+Packet   1707  : Found matches =   1  rules: 429
+Packet:  1708  is invalid.
+Packet   1709  : Found matches =   0  rules:
+Packet   1710  : Found matches =   1  rules: 430
+Packet   1711  : Found matches =   0  rules:
+Packet   1712  : Found matches =   0  rules:
+Packet   1713  : Found matches =   0  rules:
+Packet   1714  : Found matches =   1  rules: 45
+Packet   1715  : Found matches =   1  rules: 45
+Packet   1716  : Found matches =   2  rules: 45,431
+Packet   1717  : Found matches =   1  rules: 45
+Packet   1718  : Found matches =   0  rules:
+Packet:  1719  is invalid.
+Packet   1720  : Found matches =   1  rules: 432
+Packet   1721  : Found matches =   1  rules: 432
+Packet   1722  : Found matches =   1  rules: 45
+Packet:  1723  is invalid.
+Packet   1724  : Found matches =   1  rules: 433
+Packet   1725  : Found matches =   0  rules:
+Packet   1726  : Found matches =   0  rules:
+Packet   1727  : Found matches =   1  rules: 434
+Packet   1728  : Found matches =   0  rules:
+Packet   1729  : Found matches =   1  rules: 434
+Packet   1730  : Found matches =   1  rules: 434
+Packet   1731  : Found matches =   0  rules:
+Packet   1732  : Found matches =   0  rules:
+Packet   1733  : Found matches =   0  rules:
+Packet   1734  : Found matches =   1  rules: 436
+Packet   1735  : Found matches =   0  rules:
+Packet   1736  : Found matches =   2  rules: 45,436
+Packet   1737  : Found matches =   0  rules:
+Packet   1738  : Found matches =   0  rules:
+Packet   1739  : Found matches =   1  rules: 437
+Packet:  1740  is invalid.
+Packet   1741  : Found matches =   0  rules:
+Packet   1742  : Found matches =   1  rules: 437
+Packet   1743  : Found matches =   0  rules:
+Packet   1744  : Found matches =   2  rules: 45,438
+Packet   1745  : Found matches =   2  rules: 45,438
+Packet   1746  : Found matches =   2  rules: 45,438
+Packet   1747  : Found matches =   0  rules:
+Packet   1748  : Found matches =   1  rules: 439
+Packet   1749  : Found matches =   0  rules:
+Packet   1750  : Found matches =   1  rules: 439
+Packet   1751  : Found matches =   0  rules:
+Packet:  1752  is invalid.
+Packet:  1753  is invalid.
+Packet:  1754  is invalid.
+Packet:  1755  is invalid.
+Packet:  1756  is invalid.
+Packet   1757  : Found matches =   1  rules: 441
+Packet   1758  : Found matches =   1  rules: 441
+Packet   1759  : Found matches =   1  rules: 441
+Packet   1760  : Found matches =   0  rules:
+Packet   1761  : Found matches =   0  rules:
+Packet   1762  : Found matches =   0  rules:
+Packet   1763  : Found matches =   1  rules: 442
+Packet   1764  : Found matches =   1  rules: 442
+Packet   1765  : Found matches =   1  rules: 442
+Packet   1766  : Found matches =   1  rules: 442
+Packet   1767  : Found matches =   1  rules: 442
+Packet:  1768  is invalid.
+Packet   1769  : Found matches =   1  rules: 443
+Packet   1770  : Found matches =   1  rules: 443
+Packet   1771  : Found matches =   1  rules: 443
+Packet   1772  : Found matches =   1  rules: 444
+Packet   1773  : Found matches =   1  rules: 444
+Packet   1774  : Found matches =   1  rules: 445
+Packet   1775  : Found matches =   0  rules:
+Packet   1776  : Found matches =   1  rules: 446
+Packet   1777  : Found matches =   1  rules: 446
+Packet   1778  : Found matches =   1  rules: 446
+Packet   1779  : Found matches =   2  rules: 45,447
+Packet   1780  : Found matches =   0  rules:
+Packet   1781  : Found matches =   1  rules: 447
+Packet   1782  : Found matches =   0  rules:
+Packet   1783  : Found matches =   1  rules: 448
+Packet   1784  : Found matches =   1  rules: 448
+Packet   1785  : Found matches =   1  rules: 449
+Packet   1786  : Found matches =   0  rules:
+Packet   1787  : Found matches =   1  rules: 449
+Packet   1788  : Found matches =   1  rules: 450
+Packet   1789  : Found matches =   0  rules:
+Packet   1790  : Found matches =   0  rules:
+Packet   1791  : Found matches =   1  rules: 451
+Packet   1792  : Found matches =   1  rules: 451
+Packet   1793  : Found matches =   0  rules:
+Packet   1794  : Found matches =   1  rules: 452
+Packet   1795  : Found matches =   1  rules: 453
+Packet:  1796  is invalid.
+Packet   1797  : Found matches =   1  rules: 453
+Packet   1798  : Found matches =   1  rules: 453
+Packet   1799  : Found matches =   1  rules: 454
+Packet   1800  : Found matches =   1  rules: 454
+Packet   1801  : Found matches =   1  rules: 454
+Packet   1802  : Found matches =   1  rules: 454
+Packet   1803  : Found matches =   1  rules: 454
+Packet   1804  : Found matches =   1  rules: 454
+Packet   1805  : Found matches =   2  rules: 45,455
+Packet   1806  : Found matches =   1  rules: 455
+Packet   1807  : Found matches =   1  rules: 455
+Packet   1808  : Found matches =   1  rules: 455
+Packet   1809  : Found matches =   0  rules:
+Packet   1810  : Found matches =   1  rules: 456
+Packet   1811  : Found matches =   1  rules: 456
+Packet   1812  : Found matches =   1  rules: 456
+Packet   1813  : Found matches =   0  rules:
+Packet   1814  : Found matches =   0  rules:
+Packet   1815  : Found matches =   1  rules: 457
+Packet   1816  : Found matches =   1  rules: 45
+Packet   1817  : Found matches =   0  rules:
+Packet   1818  : Found matches =   0  rules:
+Packet   1819  : Found matches =   1  rules: 457
+Packet   1820  : Found matches =   1  rules: 458
+Packet   1821  : Found matches =   0  rules:
+Packet   1822  : Found matches =   0  rules:
+Packet   1823  : Found matches =   1  rules: 458
+Packet   1824  : Found matches =   1  rules: 458
+Packet   1825  : Found matches =   2  rules: 397,459
+Packet   1826  : Found matches =   0  rules:
+Packet   1827  : Found matches =   1  rules: 460
+Packet   1828  : Found matches =   1  rules: 460
+Packet   1829  : Found matches =   0  rules:
+Packet   1830  : Found matches =   2  rules: 45,460
+Packet   1831  : Found matches =   0  rules:
+Packet   1832  : Found matches =   0  rules:
+Packet   1833  : Found matches =   1  rules: 461
+Packet   1834  : Found matches =   0  rules:
+Packet:  1835  is invalid.
+Packet:  1836  is invalid.
+Packet   1837  : Found matches =   1  rules: 462
+Packet   1838  : Found matches =   1  rules: 462
+Packet   1839  : Found matches =   1  rules: 462
+Packet   1840  : Found matches =   1  rules: 463
+Packet   1841  : Found matches =   0  rules:
+Packet   1842  : Found matches =   1  rules: 463
+Packet   1843  : Found matches =   0  rules:
+Packet   1844  : Found matches =   1  rules: 463
+Packet:  1845  is invalid.
+Packet   1846  : Found matches =   1  rules: 464
+Packet   1847  : Found matches =   1  rules: 464
+Packet:  1848  is invalid.
+Packet   1849  : Found matches =   0  rules:
+Packet   1850  : Found matches =   0  rules:
+Packet   1851  : Found matches =   0  rules:
+Packet   1852  : Found matches =   1  rules: 465
+Packet   1853  : Found matches =   1  rules: 466
+Packet   1854  : Found matches =   1  rules: 466
+Packet:  1855  is invalid.
+Packet   1856  : Found matches =   1  rules: 466
+Packet   1857  : Found matches =   1  rules: 466
+Packet   1858  : Found matches =   1  rules: 466
+Packet   1859  : Found matches =   1  rules: 467
+Packet   1860  : Found matches =   1  rules: 467
+Packet   1861  : Found matches =   1  rules: 467
+Packet   1862  : Found matches =   0  rules:
+Packet   1863  : Found matches =   0  rules:
+Packet   1864  : Found matches =   1  rules: 468
+Packet   1865  : Found matches =   1  rules: 468
+Packet   1866  : Found matches =   2  rules: 45,468
+Packet   1867  : Found matches =   1  rules: 468
+Packet   1868  : Found matches =   1  rules: 468
+Packet:  1869  is invalid.
+Packet   1870  : Found matches =   0  rules:
+Packet:  1871  is invalid.
+Packet:  1872  is invalid.
+Packet   1873  : Found matches =   1  rules: 45
+Packet   1874  : Found matches =   2  rules: 45,470
+Packet   1875  : Found matches =   2  rules: 45,470
+Packet   1876  : Found matches =   2  rules: 45,470
+Packet   1877  : Found matches =   0  rules:
+Packet   1878  : Found matches =   0  rules:
+Packet   1879  : Found matches =   0  rules:
+Packet   1880  : Found matches =   1  rules: 45
+Packet   1881  : Found matches =   1  rules: 471
+Packet   1882  : Found matches =   0  rules:
+Packet   1883  : Found matches =   1  rules: 472
+Packet   1884  : Found matches =   0  rules:
+Packet   1885  : Found matches =   1  rules: 472
+Packet   1886  : Found matches =   0  rules:
+Packet:  1887  is invalid.
+Packet   1888  : Found matches =   1  rules: 473
+Packet   1889  : Found matches =   0  rules:
+Packet   1890  : Found matches =   1  rules: 473
+Packet   1891  : Found matches =   1  rules: 473
+Packet   1892  : Found matches =   0  rules:
+Packet:  1893  is invalid.
+Packet   1894  : Found matches =   1  rules: 474
+Packet   1895  : Found matches =   1  rules: 475
+Packet   1896  : Found matches =   0  rules:
+Packet   1897  : Found matches =   1  rules: 475
+Packet   1898  : Found matches =   1  rules: 476
+Packet   1899  : Found matches =   1  rules: 476
+Packet   1900  : Found matches =   0  rules:
+Packet   1901  : Found matches =   1  rules: 477
+Packet   1902  : Found matches =   2  rules: 45,477
+Packet:  1903  is invalid.
+Packet   1904  : Found matches =   2  rules: 45,478
+Packet   1905  : Found matches =   2  rules: 45,478
+Packet:  1906  is invalid.
+Packet   1907  : Found matches =   0  rules:
+Packet   1908  : Found matches =   1  rules: 479
+Packet   1909  : Found matches =   1  rules: 479
+Packet   1910  : Found matches =   0  rules:
+Packet:  1911  is invalid.
+Packet   1912  : Found matches =   1  rules: 480
+Packet:  1913  is invalid.
+Packet   1914  : Found matches =   1  rules: 480
+Packet   1915  : Found matches =   1  rules: 480
+Packet   1916  : Found matches =   0  rules:
+Packet   1917  : Found matches =   1  rules: 481
+Packet   1918  : Found matches =   1  rules: 481
+Packet   1919  : Found matches =   1  rules: 481
+Packet   1920  : Found matches =   1  rules: 481
+Packet   1921  : Found matches =   0  rules:
+Packet:  1922  is invalid.
+Packet:  1923  is invalid.
+Packet:  1924  is invalid.
+Packet   1925  : Found matches =   1  rules: 482
+Packet:  1926  is invalid.
+Packet   1927  : Found matches =   0  rules:
+Packet   1928  : Found matches =   1  rules: 255
+Packet:  1929  is invalid.
+Packet   1930  : Found matches =   2  rules: 255,483
+Packet:  1931  is invalid.
+Packet   1932  : Found matches =   1  rules: 484
+Packet   1933  : Found matches =   1  rules: 484
+Packet:  1934  is invalid.
+Packet   1935  : Found matches =   1  rules: 45
+Packet   1936  : Found matches =   1  rules: 485
+Packet   1937  : Found matches =   0  rules:
+Packet   1938  : Found matches =   1  rules: 486
+Packet   1939  : Found matches =   0  rules:
+Packet   1940  : Found matches =   0  rules:
+Packet   1941  : Found matches =   0  rules:
+Packet   1942  : Found matches =   1  rules: 487
+Packet   1943  : Found matches =   1  rules: 487
+Packet   1944  : Found matches =   1  rules: 487
+Packet   1945  : Found matches =   0  rules:
+Packet   1946  : Found matches =   0  rules:
+Packet   1947  : Found matches =   2  rules: 45,488
+Packet   1948  : Found matches =   1  rules: 489
+Packet   1949  : Found matches =   0  rules:
+Packet   1950  : Found matches =   0  rules:
+Packet   1951  : Found matches =   2  rules: 45,490
+Packet   1952  : Found matches =   0  rules:
+Packet   1953  : Found matches =   1  rules: 491
+Packet   1954  : Found matches =   1  rules: 492
+Packet:  1955  is invalid.
+Packet   1956  : Found matches =   0  rules:
+Packet   1957  : Found matches =   1  rules: 492
+Packet   1958  : Found matches =   0  rules:
+Packet:  1959  is invalid.
+Packet:  1960  is invalid.
+Packet   1961  : Found matches =   1  rules: 493
+Packet:  1962  is invalid.
+Packet   1963  : Found matches =   1  rules: 494
+Packet   1964  : Found matches =   0  rules:
+Packet   1965  : Found matches =   1  rules: 494
+Packet   1966  : Found matches =   0  rules:
+Packet   1967  : Found matches =   0  rules:
+Packet   1968  : Found matches =   0  rules:
+Packet   1969  : Found matches =   1  rules: 495
+Packet:  1970  is invalid.
+Packet   1971  : Found matches =   0  rules:
+Packet   1972  : Found matches =   0  rules:
+Packet   1973  : Found matches =   0  rules:
+Packet   1974  : Found matches =   0  rules:
+Packet   1975  : Found matches =   1  rules: 498
+Packet   1976  : Found matches =   1  rules: 498
+Packet   1977  : Found matches =   0  rules:
+Packet   1978  : Found matches =   1  rules: 498
+Packet   1979  : Found matches =   0  rules:
+Packet   1980  : Found matches =   0  rules:
+Packet:  1981  is invalid.
+Packet   1982  : Found matches =   1  rules: 500
+Packet   1983  : Found matches =   0  rules:
+Packet   1984  : Found matches =   1  rules: 500
+Packet   1985  : Found matches =   1  rules: 500
+Packet   1986  : Found matches =   2  rules: 45,500
+PS D:\sem 2\network security\All Assignments\LAB5> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20210428162139
+**********************

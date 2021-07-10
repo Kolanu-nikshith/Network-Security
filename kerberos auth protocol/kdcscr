@@ -1,0 +1,22 @@
+Script started on Sat 10 Apr 2021 08:14:35 AM EDT
+]0;nptel@osboxes: ~/Desktop/windowsshare/reddy[01;32mnptel@osboxes[00m:[01;34m~/Desktop/windowsshare/reddy[00m$ make
+gcc KDC.c -o kdc -lcrypto
+gcc client.c -o client -lcrypto
+]0;nptel@osboxes: ~/Desktop/windowsshare/reddy[01;32mnptel@osboxes[00m:[01;34m~/Desktop/windowsshare/reddy[00m$ makerm kdc./kdc -p 12345 -o out.txt -f pwd.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./kdc -p 12345 -o out.txt -f pwd.txt [A
+Kerberos Distribution center runs on port number = 12345
+output file given = out.txt
+password file = pwd.txt
+*** User Registration Started. Code : 301 received from client***
+
+alice successfully registered
+Sending response code 302 to client*** User Registration Started. Code : 301 received from client***
+
+bob successfully registered
+Sending response code 302 to clientkey request message with code 305 received. Processing...
+
+Response and Key has been generated and sent to client alice  with code 306.  
+]0;nptel@osboxes: ~/Desktop/windowsshare/reddy[01;32mnptel@osboxes[00m:[01;34m~/Desktop/windowsshare/reddy[00m$ exit
+exit
+
+Script done on Sat 10 Apr 2021 08:16:13 AM EDT

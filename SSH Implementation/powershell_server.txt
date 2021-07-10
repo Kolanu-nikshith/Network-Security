@@ -1,0 +1,52 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210416161943
+Username: DESKTOP-MBTMEG4\nkred
+RunAs User: DESKTOP-MBTMEG4\nkred
+Configuration Name: 
+Machine: DESKTOP-MBTMEG4 (Microsoft Windows NT 10.0.19042.0)
+Host Application: PowerShell.exe -noexit -command Set-Location -literalPath 'D:\sem 2\network security\as4'
+Process ID: 18100
+PSVersion: 5.1.19041.610
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.610
+BuildVersion: 10.0.19041.610
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\nkred\OneDrive\Documents\PowerShell_transcript.DESKTOP-MBTMEG4.at8BV9FG.20210416161943.txt
+PS D:\sem 2\network security\as4> python server.py 12345
+Socket successfully created
+socket binded to 12345
+socket is listening
+Got connection from ('127.0.0.1', 2435)
+Sending Server public key to client
+Received Credentails from client. Verifying them...
+alice808
+User Authentication Successful!
+cwd command received!
+listfiles command received!
+b'D:/'
+cd command received!
+D:\
+listfiles command received!
+cp command received!
+src :  demo5
+dest :  demo6
+cp command received!
+src :  demo5
+dest :  demo7
+listfiles command received!
+mv command received!
+src :  demo5
+dest :  demo8
+listfiles command received!
+cwd command received!
+Logout command received! closed current session
+PS D:\sem 2\network security\as4> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20210416162253
+**********************

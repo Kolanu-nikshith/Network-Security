@@ -1,0 +1,16 @@
+Script started on Sat 10 Apr 2021 08:15:59 AM EDT
+]0;nptel@osboxes: ~/Desktop/windowsshare/reddy[01;32mnptel@osboxes[00m:[01;34m~/Desktop/windowsshare/reddy[00m$ exit[2Plsrm kdc./kdc -p 12345 -o out.txt -f pwd.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./kdc -p 12345 -o out.txt -f pwd.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript kdc[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Pclear./kdc -p 12345 -o out.txt -f pwd.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./client -n bob -m R -s outenc.txt -oo out.txt -a 127.0.0.1 -p 12345
+name  of the user= bob
+Type = R
+outenc = outenc.txt
+other user name = out.txt
+kerberos distribution center ip = 127.0.0.1
+kerberos distribution center port = 12345
+bob registered in KDC
+]0;nptel@osboxes: ~/Desktop/windowsshare/reddy[01;32mnptel@osboxes[00m:[01;34m~/Desktop/windowsshare/reddy[00m$ exit
+exit
+
+Script done on Sat 10 Apr 2021 08:16:20 AM EDT
