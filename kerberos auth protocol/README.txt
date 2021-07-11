@@ -23,8 +23,6 @@ terminal 3:    ./client -n bob -m R -s outenc.txt -o out.txt -a 127.0.0.1 -p 123
 
 --------------------------------------------------------------------------------------
 
-In this assignment I perfectly implemented the kerberos part and Could not complete just the final communication between two clients.
-
-I request you to grade accordingly. 
+This application works fine to the best of developer knowledge.
 -------------------------------------------------------------------------------------
 
